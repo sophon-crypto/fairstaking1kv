@@ -1,0 +1,1 @@
+# fairstaking1kv
