@@ -1,6 +1,6 @@
 # fairstaking1kv
 
-项目名称： Non-profit Delegated Staking Tool (NDeST) 
+项目名称： Non-profit DElegated Staking Tool (NDeST) 
 简称： NDeST
 
 ## 现状：
