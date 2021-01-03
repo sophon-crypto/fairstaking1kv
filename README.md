@@ -32,5 +32,7 @@
 
 ## 希望的支持 
 
-### 希望能在polkadot app中提供fairstaking1kv入口。
-### 国库支持，500ksm
+### 功能支持
+希望能在polkadot app中提供fairstaking1kv入口。
+### 国库支持
+500ksm
