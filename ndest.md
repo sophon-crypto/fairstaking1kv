@@ -23,16 +23,19 @@ Developing non profit defi based on Kusama, increasing the direct pledge ratio o
 We can consider creating a new term non profit defi. The traditional defi needs to issue its own token or directly transfer assets and then carry out related financial activities. Non profit defi is also a kind of defi, but it does not aim at transferring assets, but creates a financial instrument with the help of some kind of ecosystem (KSM / dot). The system itself is not profitable. In this project, non profit defi is essentially a pledge tool, in which there is no interest margin. Of course, we can't rule out that in the future, this project may evolve to defi, which may be another project.
 
 ### Advantage against DeFi
+Non-Profit Defi is just a tool not creating a new economic system. Melted intothe orginal ecosystem it should be much safer and reliable.
 
-### 
-我们创建Defi，接受来自任何ksm用户的自动委托，通过委托向1kv中的inactive set提供一键质押功能（随机选择任意4个inactive set进行质押），在功能上该质押等同于用户直接选择节点质押，所以在任意时刻用户均可以撤回质押或者再次选择手动质押。
 
-## 意义
-通过Defi，解决1kv中流动性不足的问题，通过吸纳自有用户的为1kv增加流动性，提高1kv用户的质押比例。
+### High Level Design 
+We create defi, accept the automatic delegation from any KSM user, and provide one click pledge function to the inactive set in 1KV (randomly select any four inactive sets to pledge). In function, the pledge is equivalent to the user directly selecting the node pledge, so the user can withdraw the pledge or choose the manual pledge again at any time.
 
-## 希望的支持 
+## Usage
+Through defi, we can solve the problem of insufficient liquidity in 1kV, increase the liquidity for 1kV by absorbing private users, and improve the pledge proportion of 1kV users.
 
-### 功能支持
-希望能在polkadot app中提供fairstaking1kv入口。
-### 国库支持
+## Hopefully Support
+
+### Fucntion Support
+Get the Entry from Polkadot App
+
+### Council Support
 500ksm
