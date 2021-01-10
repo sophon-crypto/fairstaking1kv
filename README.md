@@ -18,7 +18,8 @@
 通过polkadot App提供个人提名者对于1kv计划节点的直接质押（一键质押）提升1kv参与者得选举成功率，从而增加1kv计划中质押资金得来源（目前1kv质押资金主要来源于web3），提升系统去中心化程度，增加系统活跃度。
 
 ## 三，项目内容
-### 3.1 个人提名者质押入口
+### 3.1 过程
+#### 3.1.1 个人提名者质押入口
 在polkadot app中，对于个人提名者而言，提供更多1kv操作入口
 ```
 Bond more funds
@@ -33,7 +34,7 @@ Staking in Web3 1KV (新增）
 
 ```
 
-### 3.2 选择1kv质押策略
+#### 3.1.2 选择1kv质押策略
 ```
 <img>stash acount                 xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 _______________________________________________________________
@@ -47,7 +48,7 @@ _______________________________________________________________
 ________________________________________________________________
 ```
 
-### 3.3 输入密码以及确认质押
+#### 3.1.3 输入密码以及确认质押
 ```
 Authorize transaction
 Sending transaction staking.nominate(targets)
@@ -58,10 +59,24 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 unlock account with password
 input password
 ```
+### 3.2 算法
+#### 3.2.1 当前收益最高
 
-## 四，希望的支持 
+#### 3.2.2 质押时间最长
 
-### 4.1 功能支持
+
+
+
+## 四，可扩展性（Scalability)
+### 4.1 ksm支持
+
+### 4.2 dot支持
+
+## 五，未来的工作（Future Work）
+
+## 六，希望的支持 
+
+### 6.1 功能支持
 希望能在polkadot app中提供fairstaking1kv入口。
-### 4.2 国库支持
+### 6.2 国库支持
 500ksm
