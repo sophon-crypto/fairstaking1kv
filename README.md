@@ -64,19 +64,18 @@ input password
 
 #### 3.2.2 质押时间最长
 
-
-
-
 ## 四，可扩展性（Scalability)
 ### 4.1 ksm支持
 
 ### 4.2 dot支持
 
-## 五，未来的工作（Future Work）
+## 五，时间计划(Time Plan)
 
-## 六，希望的支持 
+## 六，未来的工作（Future Work）
 
-### 6.1 功能支持
+## 七，希望的支持 
+
+### 7.1 功能支持
 希望能在polkadot app中提供fairstaking1kv入口。
-### 6.2 国库支持
+### 7.2 国库支持
 500ksm
