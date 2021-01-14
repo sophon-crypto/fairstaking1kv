@@ -110,3 +110,14 @@ input password
 希望能和1kv team合作，更好发会这个特性
 ### 7.2 国库支持
 300ksm
+
+## 八，团队和优势
+### 8.1 团队
+
+bodysophon: ksm validator maintainer (2 nodes in 1kv are maintaining)
+**********
+**********
+
+### 8.2 优势
+我们参与了1kv计划，对于1kv参与比较深，对于1kv的问题也认识较为深刻，我们希望能通过这个项目解决所有1kv的问题。
+
