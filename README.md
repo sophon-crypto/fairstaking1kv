@@ -82,11 +82,17 @@ input password
 此算法的目的為讓小的/新的驗證人較容易被提名。其概念為鼓勵質押者將其資金投入
 1. 較少被提名者 (active set選中率低)
 2. 總質押數低者
-3. ...?
 
 此類驗證人因很少被提名 難以在polkadot app中獲得關注 自然難以吸引一般提名人的提名 導致驗證人從1kv計畫中獲得的收益低 若能在app中有一個明顯的入口 吸引提名人提名此類節點 將能夠鼓勵質押數低的節點繼續留在計畫中
 
-此算法選擇x個高的驗證人(容易被提名的節點)(算法待補)和y個低的驗證人(難以被提名的節點)(算法待補)提名 
+此算法選擇x個高的驗證人(容易被提名的節點) 其方法為
+1. (stake ranking) valid nodes 依照web3提名人除外的質押總數排序
+2. 從stake ranking前1/4的nodes隨機選擇m個節點(例如m=2)作為高的驗證人
+
+和y個低的驗證人(難以被提名的節點)提名 其方法為
+1. (active ranking) valid nodes依照active set選中率排序
+2. 從stake ranking後1/4的nodes隨機選擇n個節點(例如n=5) 作為低的驗證人
+3. 從active ranking後1/4的nodes隨機選擇n個節點(例如n=5) 作為低的驗證人
 使用高低配的原因是如果提名者將其資金投入上述validators 就機率來說 他較難得到收益 因此我們搭配一個(或多個)容易被選中的節點確保此算法有足夠的吸引力讓質押者選擇 
 
 ## 四，可扩展性（Scalability)
@@ -126,7 +132,7 @@ input password
 ##### yaohsin (Riot Id)：
          yaohsin has an doctor deggree of applied mathematics and Master of computer engineering ksm. He has long-term IT-development and IT-management expierence for more than 10 years. He has experice of Substrate-based blockchain technology and he is also personal Kusama validator operator.
 ##### tanis_37 (Riot Id)：
-         tanis_37 has an doctor deggree of applied mathematics and Master of computer engineering ksm. He has long-term IT-development and IT-management expierence for more than 10 years. He has experice of Substrate-based blockchain technology and he is also personal Kusama validator operator.
+         tanis_37 has a Master degree of computer science. He is a proficient software developer on industrial network management systems. He is also a personal Kusama validator operator.
 
 
 ### 8.2 优势
