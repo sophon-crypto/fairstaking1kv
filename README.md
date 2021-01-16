@@ -121,11 +121,11 @@ input password
 ## 八，团队和优势
 ### 8.1 团队
 
-（TeamLeader) bodysophon (Riot Id)
+#####  bodysophon (Riot Id)
          bodysophon has an doctor deggree of applied mathematics and Master of computer engineering ksm. He has long-term IT-development and IT-management expierence for more than 10 years. He has experice of Substrate-based blockchain technology and he is also personal Kusama validator operator.
-（Team Member) yaohsin (Riot Id)：
+##### yaohsin (Riot Id)：
          yaohsin has an doctor deggree of applied mathematics and Master of computer engineering ksm. He has long-term IT-development and IT-management expierence for more than 10 years. He has experice of Substrate-based blockchain technology and he is also personal Kusama validator operator.
-（Team Member)tanis_37 (Riot Id)：
+##### tanis_37 (Riot Id)：
          tanis_37 has an doctor deggree of applied mathematics and Master of computer engineering ksm. He has long-term IT-development and IT-management expierence for more than 10 years. He has experice of Substrate-based blockchain technology and he is also personal Kusama validator operator.
 
 
