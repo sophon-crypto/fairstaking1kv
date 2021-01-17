@@ -130,7 +130,7 @@ input password
 #####  bodysophon (Riot Id)
          bodysophon has an doctor deggree of applied mathematics and Master of computer engineering ksm. He has long-term IT-development and IT-management expierence for more than 10 years. He has experice of Substrate-based blockchain technology and he is also personal Kusama validator operator.
 ##### yaohsin (Riot Id)：
-         yaohsin has an doctor deggree of applied mathematics and Master of computer engineering ksm. He has long-term IT-development and IT-management expierence for more than 10 years. He has experice of Substrate-based blockchain technology and he is also personal Kusama validator operator.
+         Yaohsin has a Ph.D. degree in computer science with a focus on information security. He is a big believer in blockchain and is a co-founder of a blockchain-based solar technology company. Currently, he is a personal Kusama validator operator.
 ##### tanis_37 (Riot Id)：
          tanis_37 has a Master degree of computer science. He is a proficient software developer on industrial network management systems. He is also a personal Kusama validator operator.
 
