@@ -96,11 +96,7 @@ input password
 使用高低配的原因是如果提名者將其資金投入上述validators 就機率來說 他較難得到收益 因此我們搭配一個(或多個)容易被選中的節點確保此算法有足夠的吸引力讓質押者選擇 
 
 ## 四，可扩展性（Scalability)
-### 4.1 初期支持ksm&dot
 首先支持ksm系统，能够允许ksm nominators质押给1kv节点。后期，能够支持dot nominators质押给1kv节点。
-
-### 4.1 其他
-应该说，任何一个波卡系系统可能都会有类似1kv这样得计划，应该是共性，而非个性。
 
 ## 五，时间计划(Time Plan)
 ### stage 1: 2 months
@@ -110,10 +106,7 @@ input password
 
 ## 六，未来的计划（Future Work）
 ### 6.1 项目运维移交给web3 1kv team
-如果这个项目进展顺利，并且功能已经稳定完备，将会移交给web3 1kv team运营
-
-
-完成fairstaking1kv後 
+如果这个项目进展顺利，并且功能已经稳定完备，完成fairstaking1kv後,将会移交给web3 1kv team运营
 
 ## 七，希望的支持 
 
@@ -127,13 +120,15 @@ input password
 ## 八，团队和优势
 ### 8.1 团队
 
-#####  bodysophon (Riot Id)
-         bodysophon has a Ph.D. degree of applied mathematics and Master of computer engineering. He has long-term IT-development and IT-management expierence for more than 10 years. He is a serial entrepreneurhas and he has experice of Substrate-based blockchain technology.  He is also personal Kusama validator operator.
-##### yaohsin (Riot Id)：
+##### Project Manager and Developer: sophon (Riot Id)
+         sophon has a Ph.D. degree of applied mathematics and Master of computer engineering. He has long-term IT-development and IT-management expierence for more than 10 years. He is a serial entrepreneurhas and he has experice of Substrate-based blockchain technology.  He is also personal Kusama validator operator.
+         In this project, he is the project mananger.
+##### Designer and Developer: yaohsin (Riot Id)：
          Yaohsin has a Ph.D. degree in computer science with a focus on information security. He is a big believer in blockchain and is a co-founder of a blockchain-based solar technology company. Currently, he is a personal Kusama validator operator.
-##### tanis_37 (Riot Id)：
+##### Designer and Developer: tanis_37 (Riot Id)：
          tanis_37 has a Master degree of computer science. He is a proficient software developer on industrial network management systems. He is also a personal Kusama validator operator.
-
+#### Project Sponsor: kaichao（Riot Id):
+         somthing more is needed ...
 
 ### 8.2 优势
 我们参与了1kv计划，对于1kv参与比较深，对于1kv的问题也认识较为深刻，我们希望能通过这个项目解决所有1kv的问题。
