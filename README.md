@@ -127,8 +127,7 @@ input password
          Yaohsin has a Ph.D. degree in computer science with a focus on information security. He is a big believer in blockchain and is a co-founder of a blockchain-based solar technology company. Currently, he is a personal Kusama validator operator.
 ##### Designer and Developer: tanis_37 (Riot Id)：
          tanis_37 has a Master degree of computer science. He is a proficient software developer on industrial network management systems. He is also a personal Kusama validator operator.
-##### Project Advisor: kaichao（Riot Id):
-         somthing more is needed ...
+
 
 ### 8.2 优势
 我们参与了1kv计划，对于1kv参与比较深，对于1kv的问题也认识较为深刻，我们希望能通过这个项目解决所有1kv的问题。
