@@ -1,7 +1,7 @@
 # fairstaking1kv
 
-项目名称： Non-profit DElegated Staking Tool (NDeST) 
-简称： NDeST
+项目名称： 1KV Enhanced-Decentralized Staking Tool (1KV-EDST)
+简称： 1KV-EDST
 
 ## 一，项目背景：
 
@@ -9,7 +9,7 @@
 长期来看，随着ksm/dot价值的越来越大，机构特别是交易所或者一些专门的节点运营机构可能占据越来越重要重要的位置，他们可能会持有越来越多的节点，而机构持有节点过多会非常影响影响ksm/dot网络的去中心化程度，因此提高个人用户持有节点的比例是保持系统去中心化的关键手段。机构持有过多节点不仅仅会造成去中心化的问题，而且会使得系统总体参与程度下降，比如投票，比如参与提案，比如新版本的更新速度等等，以及因为一些图发情况导致的节点大面积下线，都会对系统发展不利。1kv计划（web3特地发起了1kv计划，即通过web3的支持，部分个人用户只需要提供少量质押，即可以拥有一个节点。）是降低系统中心化程度，保持系统足够分散性和足够参与者的关键项目
 
 ### 1.2 1kv中选举成功率较低，需要web3提供更多的质押
-目前1kv共约167个valid node（https://kusama.yaohsin.net/api/validators） ，只有84个节点被成功选举成为验证人节点，选举成功率约为50%。虽然1kv计划尝试通过各种方法使得尽可能提高成功率，让更多的参与者能够分享收益，但是如果让167个节点都成为选举人节点，每个节点至少需要5000个抵押，如果所有的节点都来自web3，那么至少需要83万5000ksm。而且随着参与者越来越多，需要web3提供的质押越辣越多，如果仅仅依靠web3 foundation可能不足与提供足够多的staking支持大多数节点选举成功。
+目前1kv共约170个valid node（https://kusama.yaohsin.net/api/validators, recorded in 22nd-Feb-2021） ，只有93个节点被成功选举成为验证人节点，选举成功率约为54%。虽然1kv计划尝试通过各种方法使得尽可能提高成功率，让更多的参与者能够分享收益，但是如果让170个节点都成为选举人节点，每个节点至少需要5000个抵押，如果所有的节点都来自web3，那么至少需要83万5000ksm。而且随着参与者越来越多，需要web3提供的质押越辣越多，如果仅仅依靠web3 foundation可能不足与提供足够多的staking支持大多数节点选举成功。
 
 ### 1.3 个人提名者参与1kv质押是解决问题的根本办法
 个人提名者参与1kv质押可以解决一部分质押资金来源的问题，大量的个人提名者参与1kv，也可以极大增加1kv计划的资金实力；个人提名者参与1kv计划，还可以增加1kv计划中节点获取稳定收益的能力，因为个人提名者一般不会频繁质押以及撤销质押，大部分个人用户还是习惯于质押在某一个确定的节点上。
@@ -95,34 +95,39 @@ input password
 3. 從active ranking後1/4的nodes隨機選擇n個節點(例如n=5) 作為低的驗證人
 使用高低配的原因是如果提名者將其資金投入上述validators 就機率來說 他較難得到收益 因此我們搭配一個(或多個)容易被選中的節點確保此算法有足夠的吸引力讓質押者選擇 
 
+### 3.3 数据分析
+我们会提供相对应thousand-validators.kusama.network/#/leaderboard一样的数据分析界面，帮助1kv team改善相关运营效果，这块希望1kv team也能提供相对应的建议。
+
+### 3.4 关键点（key point）
+我们希望通过这个项目建立1kv project和polkadot app之间的bridge，然后更好地帮助community，算法本身应该不说前期特别重要的点，重点的形成这样的机制以及后续如何迭代，我们这样的free developer如何参与工作，是我们更想去探索和挖掘的。
+
 ## 四，可扩展性（Scalability)
 首先支持ksm系统，能够允许ksm nominators质押给1kv节点。后期，能够支持dot nominators质押给1kv节点。
 
 ## 五，时间计划(Time Plan)
-### stage 1: 2 months
-完成ksm支持
-### stage 2：2 months
-完成dot支持
+### stage 1: ksm support(6 months)
+包括搭建测试环境，完成代码功能，提交代码审核
+### stage 2：dot support (3 months)
+包括搭建测试环境，完成代码功能，提交代码审核
 
 ## 六，未来的计划（Future Work）
 ### 6.1 项目运维移交给web3 1kv team
-如果这个项目进展顺利，并且功能已经稳定完备，完成fairstaking1kv後,将会移交给web3 1kv team运营
+如果这个项目进展顺利，并且功能已经稳定完备，完成ksm和dot支持後,将会移交给web3 1kv team运营
 
 ## 七，希望的支持 
 
 ### 7.1 polkdaot app支持
-希望能在polkadot app中提供fairstaking1kv入口。
+希望能在polkadot app中提供1KV-EDST入口。
 ### 7.3 1kv支持
 希望能和1kv team合作，更好发会这个特性
 ### 7.2 国库支持
-200ksm
+300ksm
 
 ## 八，团队和优势
 ### 8.1 团队
 
 ##### Project Manager and Developer: sophon (Riot Id)
          sophon has a Ph.D. degree of applied mathematics and Master of computer engineering. He has long-term IT-development and IT-management expierence for more than 10 years. He is a serial entrepreneurhas and he has experice of Substrate-based blockchain technology.  He is also personal Kusama validator operator.
-         In this project, he is the project mananger.
 ##### Designer and Developer: yaohsin (Riot Id)：
          Yaohsin has a Ph.D. degree in computer science with a focus on information security. He is a big believer in blockchain and is a co-founder of a blockchain-based solar technology company. Currently, he is a personal Kusama validator operator.
 ##### Designer and Developer: tanis_37 (Riot Id)：
@@ -130,5 +135,18 @@ input password
 
 
 ### 8.2 优势
-我们参与了1kv计划，对于1kv参与比较深，对于1kv的问题也认识较为深刻，我们希望能通过这个项目解决所有1kv的问题。
+#### 8.2.1 熟悉1kv计划
+我们都参与了1kv计划，对于1kv的问题也认识较为深刻，我们希望能通过这个项目帮助解决部分1kv的问题。
+#### 8.2.2 已经完成的部分工作
+我们已经完成了1kv中节点的数据解析工作，并且保持正常工作，具体可参看https://kusama.yaohsin.net/api/validators
 
+### 9 需要讨论的几个问题
+#### 9.1 时间是否充足，我们必须保证3个月以内完成这个事情
+包括测试环境搭建，demo代码验证，一开始我们无法预估整个事情的协调难度，但是工程相关的工作我们可以控制（比如我们自己搭建环境，然后准备代码，提交），至于他们是否愿意把工作纳入polkadot app，这个我们控制不了。
+
+#### 9.2 我们是否需要提交一个管理页面
+
+#### 9.3 额度和工作分配
+
+### 9.4 接下来的工作
+        english version
