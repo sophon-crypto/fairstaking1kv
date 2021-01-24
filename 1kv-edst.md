@@ -1,5 +1,5 @@
 
-Project Name: 1KV Enhanced-Decentralized Staking Tool shortly named "1KV-EDST"
+# Project Name: 1KV Enhanced-Decentralized Staking Tool ("1KV-EDST")
 
 ## 1,Background
 ### 1.1 The problem of Decentralization
