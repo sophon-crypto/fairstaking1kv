@@ -20,7 +20,7 @@ Authorized 1KV validators are credible because,
 
 3. Stability: the official monitors the state of the verification node in 1kV at any time to ensure the stable operation of the node and eliminate the unstable nodes.
 
-### 1.4 We need attract individual stakers from the most intuitive place
+### 1.4 We need to attract individual stakers from the most intuitive place
 
 Currently, a hard thing to us is that public never heard of the program. There are also no clues on the Polkadot App for nominators to choose 1kv validators from.
 We need to attract enough Polkadot App users to nominate 1kv participants. As enough people put their stake on us, we can run independently without the help from Web3. Then Web3 can move these stakes to other uses or even help more validators.
@@ -105,19 +105,18 @@ But because the pledge strategy of Web3 1kV is round robin, the longest online t
 
 
 
-The purpose of this algorithm is to make it easier for small / new verifiers to be nominated. The concept is to encourage the pledgor to invest its capital
+The purpose of this algorithm is to help small / new validators to be nominated. The concept is to encourage the nominators to invest their funds to validator which are
 
-1. Less nominees (low selection rate of active set)
+1. Being selected by the 1kv less.
 
-2. The total amount of pledge is lower
-
-
-
-This kind of verifier is hard to attract the general nominators because it is rarely nominated in Polkadot app, which leads to the low income of verifier from 1kV project. If there is an obvious entrance in the app to attract the nominators to nominate this kind of node, the node with low pledge number will be encouraged to stay in the project
+2. Low total stake
 
 
+This kind of verifier can hardly attract individual nominators because it is rarely being seen on the Polkadot App.If there is an obvious entry in the app to attract the nominators to nominate this kind of node, the node with low pledge number will be encouraged to stay in the project.
 
-In this algorithm, x high verifiers (easily nominated nodes) are selected
+
+
+In this algorithm, x high validators (validators which are likely being nominated) are selected
 
 (stake ranking) valid nodes are ranked according to the total number of pledge except Web3 nominators
 
@@ -125,7 +124,7 @@ In this algorithm, x high verifiers (easily nominated nodes) are selected
 
 
 
-And Y low verifiers (nodes that are difficult to be nominated) to nominate the method
+And Y low validators (validators which are rarely being nominated) to nominate the method
 
 1. (active ranking) valid nodes are sorted according to the active set selection rate
 
