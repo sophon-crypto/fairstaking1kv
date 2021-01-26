@@ -21,7 +21,9 @@ Authorized 1KV validators are credible because,
 3. Stability: the official monitors the state of the verification node in 1kV at any time to ensure the stable operation of the node and eliminate the unstable nodes.
 
 ### 1.4 We need attract individual stakers from the most intuitive place
-A large number of individual nominators participating in 1kV can also greatly increase the ability of 1kV plan; The Polkadot App is the largest and the most active Polkadot/Kusama clients. If we can attract enough APP users to nominate 1kv participants, the validators can run independently without the help from Web3. The Web3 can move these stakes to other uses or even help more validators.
+
+Currently, a hard thing to us is that public never heard of the program. There are also no clues on the Polkadot App for nominators to choose 1kv validators from.
+We need to attract enough Polkadot App users to nominate 1kv participants. As enough people put their stake on us, we can run independently without the help from Web3. Then Web3 can move these stakes to other uses or even help more validators.
 
 
 ## 2、 Project objectives
