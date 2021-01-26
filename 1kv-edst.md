@@ -8,20 +8,18 @@ As the increasing exchange value of Kusama/Polkadot, more and more institutes ma
 Therefore, it is important to increase the proportion of validators held by individual users. The quatity of personal node maintainer (called validator) is the key point of deciding the degree of system decentralization.  1kV plan lauched by Web3 foundation supports provide the nomination support for some individual users with small amount of KSM/DOT by themselve. It is a key project to reduce the degree of system centralization and keep the system decentralization enough.
 
 ### 1.2 The node in 1KV plan needs support from not only web3 but also others
-At present, there are about 172 valid nodes in 1KV（ https://kusama.yaohsin.net/api/validators， recorded in 24th, Jan, 2021). Now only 99 nodes were successfully elected as validators, and the election success rate was about 57.5%. Although the 1kV plan tries to improve the success elected-rate as much as possible through various methods but there are lots of nodes in the waiting set for a long time. Let us have a simple evaluation: if all 170 nodes in the 1KV become validators, each node needs at least 5000 nomintation including at least 50 self-nomination. If all the nomination is totally provided by Web3 except the 50 KSM self-nomanimated, it needs at least 172 * (5000 - 50) = 851,400 KSM. Moreover, more and more people could like to join the 1KV because of the higher and higher price. If we only rely on Web3 foundation, we may not be able to provide enough nomination to support the successful election as the valid nominator of most nodes.
+At present, there are about 172 valid nodes in 1KV（ https://kusama.yaohsin.net/api/validators， recorded in 24th, Jan, 2021). Now only 99 nodes were successfully elected as validators, and the election success rate was about 57.5%. Although the 1kV plan tries to improve the success elected-rate as much as possible through various methods but there are lots of nodes in the waiting set for a long time. Let us have a simple evaluation: if all 170 nodes in the 1KV become validators, each node needs at least 5000 nomintation including at least 50 self-nomination. If all the nomination is totally provided by Web3 except the 50 KSM self-nomanimated, it needs at least 172 * (5000 - 50) = 851,400 KSM. Moreover, more and more people could like to join the 1KV because of the higher and higher price. If 1KV is just only relied on the nomination from Web3 foundation, it is unsustainable for a long time.
 
 ### 1.3 Provding the entry from invidual validator from Polkadot App JS could improve the friendliness of 1KV plan
-As we know， the Polkadot App JS is the largest the Polkadot/Kusama client and it has engouh data traffic. A large number of individual nominators participating in 1kV can also greatly increase the ability of 1kV plan; Addition, individual nominators participating in 1kV plan from Pokadot App JS can also increase stable income, because individual proifit to frequently avoid cancel the nomination.
+As we know， the Polkadot App JS is the largest the Polkadot/Kusama client and it has engouh data traffic. A large number of individual nominators participating in 1kV can also greatly increase the ability of 1kV plan; Additionly, individual nominators participating in 1kV plan from Pokadot App JS can also increase stable income, because individual proifit to frequently avoid cancel the nomination.
 
 ## 2、 Project objectives
 
-Polkadot P333333333333333provides direct pledge (one key pledge) of individual nominators for 1kV plan nodes to improve the election success rate of 1kV participants, so as to increase the source of pledge funds in 1kV plan (currently 1kV pledge funds mainly come from Web3), improve the system decentralization process and increase the system activity.
+Based on the Polkadot App JS we will develop the One-Key-Nomination function for individual nominators to increase the capital of 1KV plan. This new function could attract more indivual nominators to help the Web3 foundation to maintan the 1KV plan much better.
 
-### 2.1 project Objective to individual nominators
+For the individual nominator the authorized 1KV node is much trustable because of the Web3 rules such as:
 
-As the authentication node in 1kV is regulated and supervised by the government, it can at least ensure the following features, avoid joining malicious nodes, and greatly reduce the risk of individual nominators.
-
-1. Interest consistency: self-stack is an important index for selecting verification nodes. Only by binding the interests of the node and the nominees, can we ensure that the node will do its best to maintain its operation and avoid being slammed by the system. However, at present, most of the nodes have low self-make (data). If the nominators do not know the details, they may take great risks.
+1. Interest consistency: self-stake is an important point because self-stake could bind the profit of validator and maitainance. Only the well-maitained validator will be rearded much more. However, at present, most of the nodes have low self-make (data). If the nominators do not know the details, they may take great risks.
 
 2. Avoid malicious operation: the nominator should pay attention to the proportion of commission at any time, because there may be malicious nodes to increase the proportion of commission, which makes the nominator suffer inexplicable losses without knowing it.
 
@@ -73,17 +71,16 @@ input password
 
 ### 3.2 algorithm
 
-#### 3.2.1 the current revenue is the highest
+#### 3.2.1 the current reward is the highest
 
-The purpose of this algorithm is to help users select the highest node of current pledge according to the 1kV node. The concept of this algorithm is to encourage pledge to invest capital
+The purpose of this algorithm is to help users select the highest-revenue node in the all 1KV nodes. The algorithm is to encourage invidual nominator to invest the captal to:
 
-1. The node with the highest return in active set
+1. The node with the highest reward in active set
 
-2. The total amount of pledge is moderate, 6000 pledge is better than 10000 pledge
+2. The total-stake of node is moderate, the reward of 6000 stake is better than 10000 stake
 
 
-
-But because the pledge strategy of Web3 1kV is round robin, the highest income now is not necessarily the highest forever
+But because strategy of Web3 1kV is round-robin to select the suitable node, the highest reward now is not necessarily the highest forever
 
 #### 3.2.2 node with the highest selection rate / longest online time
 
@@ -99,7 +96,7 @@ But because the pledge strategy of Web3 1kV is round robin, the longest online t
 
 
 
-#### 3.2.3 encourage the nodes with low number of pledge
+#### 3.2.3 encourage the nodes with low stake
 
 
 
@@ -137,20 +134,18 @@ The reason for using high and low allocation is that if the nominator invests hi
 
 ### 3.3 data analysis
 
-We will provide the corresponding thousand- validators.kusama.network/#/leaderboard The same data analysis interface can help 1kV team to improve the relevant operation effect. I hope 1kV team can also provide corresponding suggestions.
+We will provide the data anlyasis page for this project like 1KV-leaderboard page (https://thousand-validators.kusama.network/#/leaderboard). This page includes the node with support from individual nominator and provides the related information to help individual nominator to make decision.
 
 
 
 ### 3.4 key points
 
-We hope to build a bridge between the 1kV project and the Polkadot app through this project, and then help the community better. The algorithm itself should not mention the particularly important points in the early stage, but focus on the formation of such a mechanism and how to iterate in the future, and how free developers like us participate in the work, which we want to explore and mine.
-
+We hope to build a bridge between the 1kV project and the Polkadot app through this project, and then help the community better. The algorithm itself should not the  important points in the early stage, but focus on the mechanism and how to implement iteration development in the future.
 
 
 ## 4、 Scalability
 
-Firstly, it supports KSM system and allows KSM nominators to be pledged to 1kV nodes. Later, it can support the pledge of dot nominators to 1kV nodes.
-
+Firstly, it supports Kusama 1KV in the first and Later, it can support the Polkadot 1KV plan.
 
 
 ## 5、 Time plan
@@ -169,8 +164,7 @@ Including building test environment, completing code function, submitting code a
 
 ### 6.1 project operation and maintenance transfer to Web3 1kV team
 
-If the project goes smoothly and the function is stable and complete, it will be transferred to Web3 1kV team after the support of KSM and dot is completed
-
+If the project goes well and the function is stable and complete, it will be transferred to Web3 1kV team after the project is finished.
 
 
 ## 7、 Hope for your support
@@ -206,7 +200,6 @@ Yaohsin has a Ph.D. degree in computer science with a focus on information secur
 ##### Designer and Developer: tanis_ 37 (Riot Id)：
 
 tanis_ 37 has a Master degree of computer science. He is a proficient software developer on industrial network management systems. He is also a personal Kusama validator operator.
-
 
 
 
