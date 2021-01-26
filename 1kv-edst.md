@@ -11,14 +11,13 @@ Therefore, it is important to increase the proportion of validators held by indi
 At present, there are about 172 valid nodes in 1KV（ https://kusama.yaohsin.net/api/validators， recorded in 24th, Jan, 2021). Now only 99 nodes were successfully elected as validators, and the election success rate was about 57.5%. Although the 1kV plan tries to improve the success elected-rate as much as possible through various methods but there are lots of nodes in the waiting set for a long time. Let us have a simple evaluation: if all 170 nodes in the 1KV become validators, each node needs at least 5000 nomintation including at least 50 self-nomination. If all the nomination is totally provided by Web3 except the 50 KSM self-nomanimated, it needs at least 172 * (5000 - 50) = 851,400 KSM. Moreover, more and more people could like to join the 1KV because of the higher and higher price. If we only rely on Web3 foundation, we may not be able to provide enough nomination to support the successful election as the valid nominator of most nodes.
 
 ### 1.3 Provding the entry from invidual validator from Polkadot App JS could improve the friendliness of 1KV plan
-As we know， the Polkadot App JS is the largest the Polkadot/Kusama client and it has engouh data traffic. A large number of individual nominators participating in 1kV can also greatly increase the ability of 1kV plan; Addition, individual nominators participating in 1kV plan from Pokadot App JS can also increase stable income, because individual nominators usually do not frequently pledge and cancel the pledge, most of the individual users are not satisfied Or used to pledge in a certain node.
-
+As we know， the Polkadot App JS is the largest the Polkadot/Kusama client and it has engouh data traffic. A large number of individual nominators participating in 1kV can also greatly increase the ability of 1kV plan; Addition, individual nominators participating in 1kV plan from Pokadot App JS can also increase stable income, because individual proifit to frequently avoid cancel the nomination.
 
 ## 2、 Project objectives
 
-Polkadot app provides direct pledge (one key pledge) of individual nominators for 1kV plan nodes to improve the election success rate of 1kV participants, so as to increase the source of pledge funds in 1kV plan (currently 1kV pledge funds mainly come from Web3), improve the system decentralization process and increase the system activity.
+Polkadot P333333333333333provides direct pledge (one key pledge) of individual nominators for 1kV plan nodes to improve the election success rate of 1kV participants, so as to increase the source of pledge funds in 1kV plan (currently 1kV pledge funds mainly come from Web3), improve the system decentralization process and increase the system activity.
 
-### 2.1 attractiveness to individual nominators
+### 2.1 project Objective to individual nominators
 
 As the authentication node in 1kV is regulated and supervised by the government, it can at least ensure the following features, avoid joining malicious nodes, and greatly reduce the risk of individual nominators.
 
