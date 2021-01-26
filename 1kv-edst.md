@@ -3,7 +3,7 @@
 
 ## 1,Background
 ### 1.1 The problem of Decentralization
-As the increasing exchange value of Kusama/Polkadot, more and more institutes may occupy more and more important positions. They may hold more and more validators in the whole 1000 validators because fewer and fewer free people could afford the cost of maintaining standalone valiator. Thus degree of decentralization of KSM/DOT will decrease and it will have bad effect on the interests of personal node maintainers. Only few organization holding too many nodes will not only cause the problem of decentralization, but also reduce the overall activation of the system, such as voting, participating in proposals, speed of updating to the new version, etc.
+As the value of Kusama/Polkadot increases, only a few people are able to afford the cost of maintaining their own validators without the help from big players. The degree of decentralization of KSM/DOT can hardly increase and prevent individual validator maintainers to join the community. It not only hurt decentralization, but also reduce the overall activation of the system, such as voting, participating in proposals, speed of updating to the new version, etc.
 
 Therefore, it is important to increase the proportion of validators held by individual users. The quatity of personal node maintainer (called validator) is the key point of deciding the degree of system decentralization.  1kV plan lauched by Web3 foundation supports provide the nomination support for some individual users with small amount of KSM/DOT by themselve. It is a key project to reduce the degree of system centralization and keep the system decentralization enough.
 
