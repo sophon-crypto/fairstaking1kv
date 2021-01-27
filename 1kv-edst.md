@@ -3,27 +3,32 @@
 
 ## 1,Background
 ### 1.1 The problem of Decentralization
-As the increasing exchange value of Kusama/Polkadot, more and more institutes may occupy more and more important positions. They may hold more and more validators in the whole 1000 validators because fewer and fewer free people could afford the cost of maintaining standalone valiator. Thus degree of decentralization of KSM/DOT will decrease and it will have bad effect on the interests of personal node maintainers. Only few organization holding too many nodes will not only cause the problem of decentralization, but also reduce the overall activation of the system, such as voting, participating in proposals, speed of updating to the new version, etc.
+As the value of Kusama/Polkadot increases, only a few people are able to afford the cost of maintaining their own validators without the help from big players. Today, a person who want to own a Polkadot validator needs to own or attract more than 10M USD, which prevent individual validator maintainers to join the community. The high cost of KSM/DOT not only hurt decentralization, but also reduce the overall activation of the system, such as voting, participating in proposals, speed of updating to the new version, etc.
 
-Therefore, it is important to increase the proportion of validators held by individual users. The quatity of personal node maintainer (called validator) is the key point of deciding the degree of system decentralization.  1kV plan lauched by Web3 foundation supports provide the nomination support for some individual users with small amount of KSM/DOT by themselve. It is a key project to reduce the degree of system centralization and keep the system decentralization enough.
+Therefore, it is important to increase the proportion of validators held by individual users. The quantity of personal validators is the key point to increase the degree of system decentralization. The 1kV plan thus was launched by Web3 foundation to help individual players to hold validators. It is a key project to disperse the power of validators  held by capitals and keep the system decentralized enough.
 
-### 1.2 The node in 1KV plan needs support from not only web3 but also others
-At present, there are about 172 valid nodes in 1KV（ https://kusama.yaohsin.net/api/validators， recorded in 24th, Jan, 2021). Now only 99 nodes were successfully elected as validators, and the election success rate was about 57.5%. Although the 1kV plan tries to improve the success elected-rate as much as possible through various methods but there are lots of nodes in the waiting set for a long time. Let us have a simple evaluation: if all 170 nodes in the 1KV become validators, each node needs at least 5000 nomintation including at least 50 self-nomination. If all the nomination is totally provided by Web3 except the 50 KSM self-nomanimated, it needs at least 172 * (5000 - 50) = 851,400 KSM. Moreover, more and more people could like to join the 1KV because of the higher and higher price. If 1KV is just only relied on the nomination from Web3 foundation, it is unsustainable for a long time.
+### 1.2 The 1kv participants need support from not only web3 but also individual players
+Till today, there are about 172 valid nodes in 1KV（ https://kusama.yaohsin.net/api/validators， recorded in 24th, Jan, 2021). Only 99 of them were successfully elected as validators, the elected rate was about 57.5%. Although the 1kV plan is pushing to improve the success elected-rate as much as possible through various methods but there are lots of nodes have to wait for a long time before being nominated. However, it is unreasonable to ask Web3 to provide enough stake to keep the 1kv validators nominated all the time. Let us have a simple evaluation: if all 170 nodes in the 1KV become validators, each node needs at least 5000 nomintation including at least 50 self-nomination. If all the nomination is totally provided by Web3 except the 50 KSM self-nomanimated, it needs at least 172 * (5000 - 50) = 851,400 KSM. Moreover, people probably are more willing to join the program because the price of KSM/DOT go up. The 1KV participants cannot rely on the nomination from Web3 foundation in long term.
 
-### 1.3 Provding the entry from invidual validator from Polkadot App JS could improve the friendliness of 1KV plan
-As we know， the Polkadot App JS is the largest the Polkadot/Kusama client and it has engouh data traffic. A large number of individual nominators participating in 1kV can also greatly increase the ability of 1kV plan; Additionly, individual nominators participating in 1kV plan from Pokadot App JS can also increase stable income, because individual proifit to frequently avoid cancel the nomination.
+### 1.3 Why nominators should stake their funds to validators from 1kv
+
+Authorized 1KV validators are credible because,
+
+1. High self-stake. 1kv validators commit their funds to the system, they have to pay attention to the operation of the validators to avoid being slashed.
+
+2. Low malicious operation chance: Web3 keeps to monitor the status of each validator, a malicious validator could soon be kicked out of the program. Nominators thus take lower risk of being cheated or slashed.
+
+3. Stability: the official monitors the state of the verification node in 1kV at any time to ensure the stable operation of the node and eliminate the unstable nodes.
+
+### 1.4 We need to attract individual stakers from the most intuitive place
+
+Currently, a hard thing to us is that public never heard of the program. There are also no clues on the Polkadot App for nominators to choose 1kv validators from.
+We need to attract enough Polkadot App users to nominate 1kv participants. As enough people put their stake on us, we can run independently without the help from Web3. Then Web3 can move these stakes to other uses or even help more validators.
+
 
 ## 2、 Project objectives
 
-Based on the Polkadot App JS we will develop the One-Key-Nomination function for individual nominators to increase the capital of 1KV plan. This new function could attract more indivual nominators to help the Web3 foundation to maintan the 1KV plan much better.
-
-For the individual nominator the authorized 1KV node is much trustable because of the Web3 rules such as:
-
-1. Interest consistency: self-stake is an important point because self-stake could bind the profit of validator and maitainance. Only the well-maitained validator will be rearded much more. However, at present, most of the nodes have low self-make (data). If the nominators do not know the details, they may take great risks.
-
-2. Avoid malicious operation: the nominator should pay attention to the proportion of commission at any time, because there may be malicious nodes to increase the proportion of commission, which makes the nominator suffer inexplicable losses without knowing it.
-
-3. Stability: the official monitors the state of the verification node in 1kV at any time to ensure the stable operation of the node and eliminate the unstable nodes.
+We plan to develop a Single-step-nomination function on the Polkadot App to attract individual nominators to stake their funds to the 1kv validators.
 
 ## 3, Project Desgin
 ### 3.1 Basic Function
@@ -100,19 +105,18 @@ But because the pledge strategy of Web3 1kV is round robin, the longest online t
 
 
 
-The purpose of this algorithm is to make it easier for small / new verifiers to be nominated. The concept is to encourage the pledgor to invest its capital
+The purpose of this algorithm is to help small / new validators to be nominated. The concept is to encourage the nominators to invest their funds to validator which are
 
-1. Less nominees (low selection rate of active set)
+1. Being selected by the 1kv less.
 
-2. The total amount of pledge is lower
-
-
-
-This kind of verifier is hard to attract the general nominators because it is rarely nominated in Polkadot app, which leads to the low income of verifier from 1kV project. If there is an obvious entrance in the app to attract the nominators to nominate this kind of node, the node with low pledge number will be encouraged to stay in the project
+2. Low total stake
 
 
+This kind of verifier can hardly attract individual nominators because it is rarely being seen on the Polkadot App.If there is an obvious entry in the app to attract the nominators to nominate this kind of node, the node with low pledge number will be encouraged to stay in the project.
 
-In this algorithm, x high verifiers (easily nominated nodes) are selected
+
+
+In this algorithm, x high validators (validators which are likely being nominated) are selected
 
 (stake ranking) valid nodes are ranked according to the total number of pledge except Web3 nominators
 
@@ -120,7 +124,7 @@ In this algorithm, x high verifiers (easily nominated nodes) are selected
 
 
 
-And Y low verifiers (nodes that are difficult to be nominated) to nominate the method
+And Y low validators (validators which are rarely being nominated) to nominate the method
 
 1. (active ranking) valid nodes are sorted according to the active set selection rate
 
