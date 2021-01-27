@@ -158,13 +158,17 @@ Firstly, it supports Kusama 1KV in the first and Later, it can support the Polka
 
 ### stage 1: ksm support(6 months)
 
-Including building test environment, completing code function, submitting code audit
+* Develop the feature
+* Build test environment
+* Fully test the functions
+* Code submit and audit
 
 ### stage 2：dot support (3 months)
 
-Including building test environment, completing code function, submitting code audit
-
-
+* Develop the feature
+* Build test environment
+* Fully test the functions
+* Code submit and audit
 
 ## 6、 Future work
 
@@ -173,17 +177,17 @@ Including building test environment, completing code function, submitting code a
 If the project goes well and the function is stable and complete, it will be transferred to Web3 1kV team after the project is finished.
 
 
-## 7、 Hope for your support
+## 7、 Things need Web3 supports
 
 
 
 ### 7.1 polkdaot app support
 
-Hope to provide 1kv-edst entrance in Polkadot app.
+Provide 1kv-edst an entry point on the Polkadot app.
 
 ### 7.3 1kV support
 
-Hope to cooperate with 1kV team to better develop this feature
+We would like to cooperate with 1kV team to better develop this feature
 
 ### 7.2 Treasury support
 
