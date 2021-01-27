@@ -22,18 +22,18 @@ Authorized 1KV validators are credible because,
 
 ### 1.4 We need to attract individual stakers from the most intuitive place
 
-Currently, a hard thing to us is that public never heard of the program. There are also no clues on the Polkadot App for nominators to choose 1kv validators from.
-We need to attract enough Polkadot App users to nominate 1kv participants. As enough people put their stake on us, we can run independently without the help from Web3. Then Web3 can move these stakes to other uses or even help more validators.
+Currently, a hard thing to us is that the public never heard of the program. There are also no clues on the Polkadot App for nominators to choose 1kv validators from.
+As we need to attract enough Polkadot App users to nominate 1kv participants, making the program visible on the App is crucial. Because if there are enough people put their support us, we can run independently without the help from Web3 in the end. Web3 can then move these stakes to other uses or even support more validators.
 
 
 ## 2、 Project objectives
 
-We plan to develop a Single-step-nomination function on the Polkadot App to attract individual nominators to stake their funds to the 1kv validators.
+We plan to develop a Single-step-nomination function on the Polkadot App to attract individual nominators to put their stakes to the 1kv validators.
 
 ## 3, Project Desgin
 ### 3.1 Basic Function
 #### 3.1.1 Entry for personal nomination
-In Polkadot app, more 1kV operation entrances are provided for individual nominators
+In Polkadot app, we would like to add an option to allow nominators to stake on 1kv validators.
 
 ```
 Bond more funds
