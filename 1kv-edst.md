@@ -8,13 +8,13 @@ As the value of Kusama/Polkadot increases, only a few people are able to afford 
 Therefore, it is important to increase the proportion of validators held by individual users. The quantity of personal validators is the key point to increase the degree of system decentralization. The 1kV plan thus was launched by Web3 foundation to help individual players to hold validators. It is a key project to disperse the power of validators  held by capitals and keep the system decentralized enough.
 
 ### 1.2 The 1kv participants need support from not only web3 but also individual players
-Till today, there are about 172 valid nodes in 1KV（ https://kusama.yaohsin.net/api/validators， recorded in 24th, Jan, 2021). Only 99 of them were successfully elected as validators, the elected rate was about 57.5%. Although the 1kV plan is pushing to improve the success elected-rate as much as possible through various methods but there are lots of nodes have to wait for a long time before being nominated. However, it is unreasonable to ask Web3 to provide enough stake to keep the 1kv validators nominated all the time and it is also unrelizable to ask web3 to guarantee all the 1KV nodes online all the time.
+Till today, there are about 172 valid nodes in 1KV（ https://kusama.yaohsin.net/api/validators， recorded in 24th, Jan, 2021). Only 99 of them were successfully elected as validators, the elected rate was about 57.5%. Although the 1kV plan is pushing to improve the success elected-rate as much as possible through various methods but there are lots of nodes have to wait for a long time before being nominated. However, it is unreasonable to ask Web3 to provide enough stake to keep the 1kv validators nominated all the time and it is also unrealistic to ask web3 to guarantee all the 1KV nodes online all the time.
 
-Let us have a simple evaluation for 1KV in Kusama: if all 170 nodes in the 1KV become validators, each node needs at least 5000 nomintation including at least 50 self-nomination. If all the nomination is totally provided by Web3 except the 50 KSM self-nomanimated, it needs at least 172 * (5000 - 50) = 851,400 KSM. Moreover, people probably are more willing to join the program because the price of KSM/DOT go up. The 1KV participants cannot rely on the nomination from Web3 foundation in long term.
+Let us have a simple evaluation for 1KV in Kusama: if all the 172 nodes in the 1KV are active, each node needs at least 5000 KSM including at least 50 self stake. Web3 needs to stake at least 172 * (5000 - 50) = 851,400 KSM, which equals to about 80M USD now. Moreover, as the price goes up, people probably are more willingly to join the program. The 1KV participants cannot rely on the nomination from Web3 foundation in long term.
 
 ### 1.3 Why nominators should stake their funds to validators from 1kv
 
-Authorized 1KV validators are credible because,
+Authenticated 1KV validators are credible because,
 
 1. High self-stake. 1kv validators commit their funds to the system, they have to pay attention to the operation of the validators to avoid being slashed.
 
