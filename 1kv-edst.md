@@ -24,8 +24,7 @@ Authenticated 1KV validators are credible because,
 
 ### 1.4 We need to attract individual stakers from the most intuitive place
 
-Currently, a hard thing to us is that the public never heard of the program. There are also no clues on the Polkadot App for nominators to choose 1kv validators from.
-As we need to attract enough Polkadot App users to nominate 1kv participants, making the program visible on the App is crucial. Because if there are enough people put their support us, we can run independently without the help from Web3 in the end. Web3 can then move these stakes to other uses or even support more validators.
+Currently, lots of public partipatents/nominators never hear of 1KV plan. There are also no clues on the Polkadot App for nominators to choose 1kv validators. As we need to attract enough Polkadot App users to nominate 1kv participants, making the program visible on the App is crucial. If there are enough nomiators from public nominators, 1K valiators could reduce focus on the web3 about that why their node is not selected as normal validator. Web3 can then move these stakes to other uses or even support more validators.
 
 
 ## 2、 Project objectives
@@ -46,7 +45,7 @@ Change Controller account
 Change Reward destination
 _________________________
 
-Staking in Web3 1KV (新增）
+Staking in Web3 1KV (New）
 
 ```
 
@@ -87,32 +86,27 @@ The purpose of this algorithm is to help users select the highest-revenue node i
 2. The total-stake of node is moderate, the reward of 6000 stake is better than 10000 stake
 
 
-But because strategy of Web3 1kV is round-robin to select the suitable node, the highest reward now is not necessarily the highest forever
+Because strategy of Web3 1kV is round-robin to select the suitable node, the highest reward now is not necessarily the highest forever
 
 #### 3.2.2 node with the highest selection rate / longest online time
 
-The purpose of this algorithm is to help users select the node with the highest current selection rate / the longest online time according to the 1kV node. The concept of this algorithm is to encourage the pledge, which will put money into the network
+The purpose of this algorithm is to help users to select the node with the highest current selection rate / the longest online time according to the 1kV node. The concept of this algorithm is to encourage the pledge, which will put money into the network
 
 1. The node with the highest selection rate in active set
 
 2. Maximum online time
 
 
-
-But because the pledge strategy of Web3 1kV is round robin, the longest online time is a more reliable indicator
-
+Because the strategy of Web3 1kV is round robin, the longest online time is a more reliable indicator
 
 
 #### 3.2.3 encourage the nodes with low stake
-
-
 
 The purpose of this algorithm is to help small / new validators to be nominated. The concept is to encourage the nominators to invest their funds to validator which are
 
 1. Being selected by the 1kv less.
 
 2. Low total stake
-
 
 This kind of verifier can hardly attract individual nominators because it is rarely being seen on the Polkadot App.If there is an obvious entry in the app to attract the nominators to nominate this kind of node, the node with low pledge number will be encouraged to stay in the project.
 
@@ -123,7 +117,6 @@ In this algorithm, x high validators (validators which are likely being nominate
 (stake ranking) valid nodes are ranked according to the total number of pledge except Web3 nominators
 
 2. Randomly select m nodes (for example, M = 2) from the top quarter nodes of the stack ranking as high verifiers
-
 
 
 And Y low validators (validators which are rarely being nominated) to nominate the method
@@ -140,9 +133,7 @@ The reason for using high and low allocation is that if the nominator invests hi
 
 ### 3.3 data analysis
 
-We will provide the data anlyasis page for this project like 1KV-leaderboard page (https://thousand-validators.kusama.network/#/leaderboard). This page includes the node with support from individual nominator and provides the related information to help individual nominator to make decision.
-
-
+We will provide the data anlyasis page for 1KV-EDST (this project) as 1KV-leaderboard page (https://thousand-validators.kusama.network/#/leaderboard). This page includes the node with support from individual nominator and provides the related information to help individual nominator to make decision.
 
 ### 3.4 key points
 
@@ -178,7 +169,6 @@ If the project goes well and the function is stable and complete, it will be tra
 
 
 ## 7、 Things need Web3 supports
-
 
 
 ### 7.1 polkdaot app support
