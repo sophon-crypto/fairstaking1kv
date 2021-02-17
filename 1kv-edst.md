@@ -171,7 +171,7 @@ output:
 * a web service of the dashboard
 * optimized algorithms
 
-### stage 1.4 (2 months) (optional)
+### stage 1.4 (2 months)
 
 1. Collect feedback from the previous stages to enhance the 1kv nomination system
 
@@ -188,11 +188,25 @@ Total cost: x USD = ?KSM
 * stage 1: Infrastructure setup: x ksm
 * stage 2: After verify: y ksm
 
-### stage 2：dot support (3 months)
+### stage 2：dot support (1 months)
 
-* Infrastructure setup (?-month)
-* Develop the feature described in part 3 for Polkadot (?-month)
-* Testing and verifying (?-month)
+### stage 2.1 (2 week)
+1. add an entry point for 1kv nomination on the polkadot app
+2. implement selection algorithms
+3. add a column on the app for users to distinguish 1kv validators
+
+output: 
+
+* 以上三個工作事項通過pull request merge
+
+### stage 2.2 (2 week)
+
+1. develop a dashboard for *nominators* to show the status of 1kv validators
+
+output:
+
+* a web service of the dashboard
+* optimized algorithms
 
 #### Budget
 * Environment for development and deploy? such as AWS
