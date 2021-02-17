@@ -149,22 +149,30 @@ Firstly, it supports Kusama 1KV in the first, and Later, it can help the Polkado
 ### stage 1: ksm support(6 months)
 ### stage 1.1 discussion and design (10 days)
 
-* Discuss the detail with 1kv maintainers and also Polkadot App developers to reach consensus
-* Build testing environment
+1. Discuss the detail with 1kv maintainers and also Polkadot App developers to reach consensus
+2. Build testing environment
 
-### stage 1.2 (? months)
-* add an entry point for 1kv nomination on the polkadot app
-* implement selection algorithms
-* add a 1kv logo on the app for users to distinguish 1kv validators
+### stage 1.2 (1 months)
+1. add an entry point for 1kv nomination on the polkadot app
+2. implement selection algorithms
+3. add a column on the app for users to distinguish 1kv validators
 
-### stage 1.3 (? months)
+output: 
 
-* develop a dashboard to show the status of 1kv validators
-* optimize the selection algorithms
+* 以上三個工作事項通過pull request merge
 
-### stage 1.4 (? months)
+### stage 1.3 (3 months)
 
-* Enhance the 1kv nomination system
+1. develop a dashboard to show the status of 1kv validators
+2. optimize the selection algorithms
+
+output:
+
+* 
+
+### stage 1.4 (1 months)
+
+1. Enhance the 1kv nomination system
 
 #### Budget
 * Environment for development and deploy? such as AWS
