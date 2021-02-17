@@ -145,21 +145,39 @@ We hope to build a bridge between the 1kV project and the Polkadot app through t
 Firstly, it supports Kusama 1KV in the first, and Later, it can help the Polkadot 1KV plan.
 
 
-## 5、 Time plan
+## 5、 Milestone
 
 ### stage 1: ksm support(6 months)
 
-* Develop the feature
-* Build test environment
-* Fully test the functions
-* Code submit and audit
+* Infrastructure setup (?-month)
+* Develop the feature described in part 3 for Kusama (?-month)
+* Testing and verifying (?-month)
+
+#### Budget
+* Environment for development and deploy? such as AWS
+* Working hour cost
+* Our roles: Designer, developer
+
+#### Stage of Treasury Support
+Total cost: x USD = ?KSM
+* stage 1: Infrastructure setup: x ksm
+* stage 2: After verify: y ksm
 
 ### stage 2：dot support (3 months)
 
-* Develop the feature
-* Build test environment
-* Fully test the functions
-* Code submit and audit
+* Infrastructure setup (?-month)
+* Develop the feature described in part 3 for Polkadot (?-month)
+* Testing and verifying (?-month)
+
+#### Budget
+* Environment for development and deploy? such as AWS
+* Working hour cost
+* Our roles: Designer, developer
+
+#### Stage of Treasury Support
+Total cost: x USD = ?KSM
+* stage 1: Infrastructure setup: x ksm
+* stage 2: After verify: y ksm
 
 ## 6、 Future work
 
