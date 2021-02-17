@@ -163,12 +163,13 @@ output:
 
 ### stage 1.3 (3 months)
 
-1. develop a dashboard to show the status of 1kv validators
-2. optimize the selection algorithms
+1. develop a dashboard for *nominators* to show the status of 1kv validators
+2. optimize the selection algorithms according to the feedback from stage 1.2
 
 output:
 
-* 
+* a web service of the dashboard
+* optimized algorithms
 
 ### stage 1.4 (1 months)
 
