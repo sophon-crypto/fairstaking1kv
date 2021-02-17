@@ -171,9 +171,13 @@ output:
 * a web service of the dashboard
 * optimized algorithms
 
-### stage 1.4 (1 months)
+### stage 1.4 (2 months) (optional)
 
-1. Enhance the 1kv nomination system
+1. Collect feedback from the previous stages to enhance the 1kv nomination system
+
+output:
+
+* a proposal on how to enhance the nomination system
 
 #### Budget
 * Environment for development and deploy? such as AWS
