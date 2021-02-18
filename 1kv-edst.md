@@ -24,8 +24,13 @@ Authenticated 1KV validators are credible because,
 
 ### 1.4 We need to attract individual stakers from the most intuitive place
 
-Currently, lots of public partipatents/nominators never hear of 1KV plan. There are also no clues on the Polkadot App for nominators to choose 1kv validators. As we need to attract enough Polkadot App users to nominate 1kv participants, making the program visible on the App is crucial. If there are enough nominators from public nominators, 1K validators could reduce the focus on the web3 about why their node is not selected as a normal validator. Web3 can then move these stakes to other uses or even support more validators.
+Currently, lots of public partipatents/nominators never heard of 1KV plan. There are also no clues on the Polkadot App for nominators to choose 1kv validators. As we need to attract enough Polkadot App users to nominate 1kv participants, making the program visible on the App is crucial. If there are enough nominators from public nominators, 1K validators could reduce the focus on the web3 about why their node is not selected as a normal validator. Web3 can then move these stakes to other uses or even support more validators.
 
+### 1.5 Current status of 1kv nominating mechanism from our perspective
+
+The 1kv nominating system nominates its participants in rotation. If a validator is selected, it will be in the active set for 4 era (one day), then it will be removed from the set and has to be queued for several days (from our observation, 3 to 5 days) until it is being selected to active. The mechanism, though ostensibly fair, ineffiently helps validators to accumulate their own nominating stakes. From our observation, the most effective way to attract nominators is to make validator ranking on the *Target* page as high as possible. The nomination within one day can reach more than 10000 KSM, however, after the nomination from 1kv is ended, if the validator cannot be selected active, the nomination from independent nominators lose quickly. After 3 to 5 days not being selected, most nominations attracted from the active day would leave the validators.
+
+We would like to also enhance the 1kv nominating strategy to help those validators who already accumulated some nominations to more likely being selected to active set.
 
 ## 2、 Project objectives
 
@@ -133,7 +138,7 @@ The reason for using high and low allocation is that if the nominator invests hi
 
 ### 3.3 data analysis
 
-We will provide the data anlyasis page for 1KV-EDST (this project) as 1KV-leaderboard page (https://thousand-validators.kusama.network/#/leaderboard). This page includes the node with support from the individual nominator and provides the related information to help the individual nominator decide.
+We will provide the data anlyasis page for 1KV-EDST (this project) as 1KV-leaderboard page (https://thousand-validators.kusama.network/#/leaderboard). We plan to design and implement the dashboard from nominators view to help them to select their favorite validators from 1kv plan. We would also use the information from the dashboard to propose the suggestion to enhance the 1kv nominating system.
 
 ### 3.4 key points
 
@@ -159,7 +164,7 @@ Firstly, it supports Kusama 1KV in the first, and Later, it can help the Polkado
 
 output: 
 
-* 以上三個工作事項通過pull request merge
+* Polkadot App pull request accepted
 
 ### stage 1.3 (3 months)
 
@@ -197,7 +202,7 @@ Total cost: x USD = ?KSM
 
 output: 
 
-* 以上三個工作事項通過pull request merge
+* Polkadot App pull request accepted
 
 ### stage 2.2 (2 week)
 
