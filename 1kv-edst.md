@@ -151,42 +151,71 @@ Firstly, it supports Kusama 1KV in the first, and Later, it can help the Polkado
 
 
 ## 5、 Milestone
+ 
 ### stage 1: ksm support(6 months)
-### stage 1.1 discussion and design (10 days)
+All the people involved are part-time and cost of man per day should be considered as 300$ calculdated， cost of man per week is considered as 1500$ calculated.
+### stage 1.1 discussion and design (duration: 10 days)
+Timeline: 1 month
+In this stage we need to discuss with 1kv team and polkadot app team about the detailed design about how to build the brdige between 1kv project and polkadot app project considering losts of requirements of polkado app: something should be provided to get more nomiators for 1kv team or something should be not. In this period there are several communincation among 1kv team, 1kv team and us. The main task will contain:
+1. Discuss the detail with 1kv maintainers and also Polkadot App developers to reach consensus. we plan to provide the special label for 1kv validator in the staking page, Targets page and Waiting page, in order to make 1kv plan more popular for the nominatos. but this should really be discussed with the official 2 teams.
+Timeline: 2 week (1 pm） 3000$
+3. Understand achitecture and code base about polkadot apps more.
+Timeline: 1 week (2 developer). 3000$          
+5. provide the small icon for the 1kv node to replace the traiditional one.  300$
+6. provide the cloud environment and build native polkadot app to connect with own valiator as testing environment. 1 week(1 developer)  server cost (AWS 6 months): 200$, human cost: 1500$
 
-1. Discuss the detail with 1kv maintainers and also Polkadot App developers to reach consensus
-2. Build testing environment
+
+Totally allocation:  8000$ 
 
 ### stage 1.2 (1 months)
-1. add an entry point for 1kv nomination on the polkadot app
-2. implement selection algorithms
-3. add a column on the app for users to distinguish 1kv validators
+
+1. add an entry point for 1kv nomination on the polkadot app 2 days (1 developer) 600$
+2. add the 1kv logo and filter function in the staking page, targets page and waiting page  2 days (1 developer) 600$
+3. provide the validator info-on-chain reader js class. 1 week (1 developer). 1500$ 
+4. provide the simple abstract function to be compatible with differerent algorithms:  1 week ( 2 developer) 3000$
+        highest reward currently  
+        highest/lowest inclusion 
+        highest/lowest staking
+5，provide the user action monitor especially the algorithm selection for future work. 1 week (1 developer) 1500$ 
+        
+More attentionly every new algorithm publish should be cooperated with 1kv team before submit or accept by polkadot app.
 
 output: 
 
-* Polkadot App pull request accepted
+* Polkadot App pull request accepted (as patch)
 
-### stage 1.3 (3 months)
+Totally allocation:  7200$ 
 
-1. develop a dashboard for *nominators* to show the status of 1kv validators
-2. optimize the selection algorithms according to the feedback from stage 1.2
+### stage 1.3 (1 months)
+
+1, 1kv-edst dashboard ui design. 1 weeks (1 ui, 1 developer) 1000$
+2, user action monitor sub-system. 1 week (1ui, 1 developer) 1500
+2. 1kv develop a dashboard for *nominators* to show the status of 1kv validators. 3 weeks (2 developer) 6000 $
+
 
 output:
 
 * a web service of the dashboard
-* optimized algorithms
 
-### stage 1.4 (2 months)
+Totally allocation:  8500$ 
 
-1. Collect feedback from the previous stages to enhance the 1kv nomination system
+### stage 1.4 (1 months)
+
+1kv-edst is not just a tool but it is necessary to operate as other web function, we need to adjust the function frequently. of course, we need to co-work with 1kv team about how to provide the validator more convenience.
+
+1, data collection and analysisi. totally 1 week (1 developer) 1500$
+2, report about 1kv-edst.         totally 1 week (1 developer) 1500
 
 output:
 
-* a proposal on how to enhance the nomination system
+* a proposal on how to enhance the nomination system about data ananlysis to 1kv team.
+
+Totally allocation:  3000$ 
 
 #### Budget
-* Environment for development and deploy? such as AWS
-* Working hour cost
+
+26700 $ == 133 ksm
+
 
 #### Stage of Treasury Support
 Total cost: x USD = ?KSM
