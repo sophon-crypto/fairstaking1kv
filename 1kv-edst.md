@@ -217,40 +217,9 @@ Totally allocation:  3000$
 26700 $ == 133 ksm
 
 
-#### Stage of Treasury Support
-Total cost: x USD = ?KSM
-* stage 1: Infrastructure setup: x ksm
-* stage 2: After verify: y ksm
+### stage 2：dot support (TBD)
 
-### stage 2：dot support (1 months)
-
-### stage 2.1 (2 week)
-1. add an entry point for 1kv nomination on the polkadot app
-2. implement selection algorithms
-3. add a column on the app for users to distinguish 1kv validators
-
-output: 
-
-* Polkadot App pull request accepted
-
-### stage 2.2 (2 week)
-
-1. develop a dashboard for *nominators* to show the status of 1kv validators
-
-output:
-
-* a web service of the dashboard
-* optimized algorithms
-
-#### Budget
-* Environment for development and deploy? such as AWS
-* Working hour cost
-* Our roles: Designer, developer
-
-#### Stage of Treasury Support
-Total cost: x USD = ?KSM
-* stage 1: Infrastructure setup: x ksm
-* stage 2: After verify: y ksm
+This idea can also be applied to Polkadot 1kv. We will discuss it later after stage 1. is in progress.
 
 ## 6、 Future work
 
