@@ -150,22 +150,25 @@ We hope to build a bridge between the 1kV project and the Polkadot app through t
 Firstly, it supports Kusama 1KV in the first, and Later, it can help the Polkadot 1KV plan.
 
 
-## 5、 Milestone
+## 5、 Time & Cost
  
+
 ### stage 1: ksm support(6 months)
 All the people involved are part-time and cost of man per day should be considered as 300$ calculdated， cost of man per week is considered as 1500$ calculated.
-### stage 1.1 discussion and design (duration: 10 days)
-Timeline: 1 month
-In this stage we need to discuss with 1kv team and polkadot app team about the detailed design about how to build the brdige between 1kv project and polkadot app project considering losts of requirements of polkado app: something should be provided to get more nomiators for 1kv team or something should be not. In this period there are several communincation among 1kv team, 1kv team and us. The main task will contain:
+### stage 1.1 discussion and design (1 month)
+
+In this stage we need to discuss with 1kv team and polkadot app team about the detailed design about how to build the brdige between 1kv project and polkadot app project considering losts of reServer fee for 2021.01 and 2021.02: (8vCPU + 16GiB + 500GiB SSD + 10Mbps) * 2 = $800quirements of polkado app: something should be provided to get more nomiators for 1kv team or something should be not. In this period there are several communincation among 1kv team, 1kv team and us. The main task will contain:
 1. Discuss the detail with 1kv maintainers and also Polkadot App developers to reach consensus. we plan to provide the special label for 1kv validator in the staking page, Targets page and Waiting page, in order to make 1kv plan more popular for the nominatos. but this should really be discussed with the official 2 teams.
-Timeline: 2 week (1 pm） 3000$
+2 week (1 pm） 3000$
 3. Understand achitecture and code base about polkadot apps more.
-Timeline: 1 week (2 developer). 3000$          
-5. provide the small icon for the 1kv node to replace the traiditional one.  300$
-6. provide the cloud environment and build native polkadot app to connect with own valiator as testing environment. 1 week(1 developer)  server cost (AWS 6 months): 200$, human cost: 1500$
+1 week (2 developer). 3000$          
+5. provide the small icon for the 1kv node to replace the traiditional one.  
+1 week (1 UI), 300$
+7. provide the cloud environment and build native polkadot app to connect with own valiator as testing environment. 
+1 week(1 developer) human cost: 1500$
 
 
-Totally allocation:  8000$ 
+Totally allocation:  7800$ 
 
 ### stage 1.2 (1 months)
 
@@ -212,9 +215,12 @@ output:
 
 Totally allocation:  3000$ 
 
+### Server Fee: 6 months
+ (8vCPU + 16GiB + 500GiB SSD + 10Mbps) * 6 = $2400
+ 
 #### Budget
+Take KSM price as $220, so the KSM expense: ($28900) / $220 = 131KSM
 
-26700 $ == 133 ksm
 
 
 ### stage 2：dot support (TBD)
