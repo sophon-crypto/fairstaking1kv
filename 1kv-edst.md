@@ -216,6 +216,7 @@ output:
 Totally allocation:  3000$ 
 
 ### Server Fee: 6 months
+Server is used to build the native polkadot app and deploy the 1kv-edst dashboard
  (8vCPU + 16GiB + 500GiB SSD + 10Mbps) * 6 = $2400
  
 #### Budget
