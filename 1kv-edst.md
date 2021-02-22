@@ -192,6 +192,7 @@ Totally allocation:  7200$
 ### stage 1.3 (1 months)
 
 1, 1kv-edst dashboard ui design. 1 weeks (1 ui, 1 developer) 1000$
+
 2. 1kv develop a dashboard for *nominators* to show the status of 1kv validators. 3 weeks (2 developer) 6000 $
 
 
