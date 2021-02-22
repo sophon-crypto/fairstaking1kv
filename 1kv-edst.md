@@ -192,7 +192,6 @@ Totally allocation:  7200$
 ### stage 1.3 (1 months)
 
 1, 1kv-edst dashboard ui design. 1 weeks (1 ui, 1 developer) 1000$
-2, user action monitor sub-system. 1 week (1ui, 1 developer) 1500
 2. 1kv develop a dashboard for *nominators* to show the status of 1kv validators. 3 weeks (2 developer) 6000 $
 
 
@@ -200,14 +199,14 @@ output:
 
 * a web service of the dashboard
 
-Totally allocation:  8500$ 
+Totally allocation:  7000$ 
 
 ### stage 1.4 (1 months)
 
 1kv-edst is not just a tool but it is necessary to operate as other web function, we need to adjust the function frequently. of course, we need to co-work with 1kv team about how to provide the validator more convenience.
 
 1, data collection and analysisi. totally 1 week (1 developer) 1500$
-2, report about 1kv-edst.         totally 1 week (1 developer) 1500
+2, report about 1kv-edst.         totally 1 week (1 developer) 1500$
 
 output:
 
@@ -220,7 +219,7 @@ Server is used to build the native polkadot app and deploy the 1kv-edst dashboar
  (8vCPU + 16GiB + 500GiB SSD + 10Mbps) * 6 = $2400
  
 #### Budget
-Take KSM price as $220, so the KSM expense: ($28900) / $220 = 131KSM
+Take KSM price as $220, so the KSM expense: ($27400) / $220 = 124KSM
 
 
 
