@@ -24,8 +24,13 @@ Authenticated 1KV validators are credible because,
 
 ### 1.4 We need to attract individual stakers from the most intuitive place
 
-Currently, lots of public partipatents/nominators never hear of 1KV plan. There are also no clues on the Polkadot App for nominators to choose 1kv validators. As we need to attract enough Polkadot App users to nominate 1kv participants, making the program visible on the App is crucial. If there are enough nominators from public nominators, 1K validators could reduce the focus on the web3 about why their node is not selected as a normal validator. Web3 can then move these stakes to other uses or even support more validators.
+Currently, lots of public partipatents/nominators never heard of 1KV plan. There are also no clues on the Polkadot App for nominators to choose 1kv validators. As we need to attract enough Polkadot App users to nominate 1kv participants, making the program visible on the App is crucial. If there are enough nominators from public nominators, 1K validators could reduce the focus on the web3 about why their node is not selected as a normal validator. Web3 can then move these stakes to other uses or even support more validators.
 
+### 1.5 Current status of 1kv nominating mechanism from our perspective
+
+The 1kv nominating system nominates its participants in rotation. If a validator is selected, it will be in the active set for 4 era (one day), then it will be removed from the set and has to be queued for several days (from our observation, 3 to 5 days) until it is being selected to active. The mechanism, though ostensibly fair, ineffiently helps validators to accumulate their own nominating stakes. From our observation, the most effective way to attract nominators is to make validator ranking on the *Target* page as high as possible. The nomination within one day can reach more than 10000 KSM, however, after the nomination from 1kv is ended, if the validator cannot be selected active, the nomination from independent nominators lose quickly. After 3 to 5 days not being selected, most nominations attracted from the active day would leave the validators.
+
+We would like to also enhance the 1kv nominating strategy to help those validators who already accumulated some nominations to more likely being selected to active set.
 
 ## 2、 Project objectives
 
@@ -133,7 +138,7 @@ The reason for using high and low allocation is that if the nominator invests hi
 
 ### 3.3 data analysis
 
-We will provide the data anlyasis page for 1KV-EDST (this project) as 1KV-leaderboard page (https://thousand-validators.kusama.network/#/leaderboard). This page includes the node with support from the individual nominator and provides the related information to help the individual nominator decide.
+We will provide the data anlyasis page for 1KV-EDST (this project) as 1KV-leaderboard page (https://thousand-validators.kusama.network/#/leaderboard). We plan to design and implement the dashboard from nominators view to help them to select their favorite validators from 1kv plan. We would also use the information from the dashboard to propose the suggestion to enhance the 1kv nominating system.
 
 ### 3.4 key points
 
@@ -145,21 +150,83 @@ We hope to build a bridge between the 1kV project and the Polkadot app through t
 Firstly, it supports Kusama 1KV in the first, and Later, it can help the Polkadot 1KV plan.
 
 
-## 5、 Time plan
+## 5、 Time & Cost
+ 
 
 ### stage 1: ksm support(6 months)
+All the people involved are part-time and cost of man per day should be considered as 300$ calculdated， cost of man per week is considered as 1500$ calculated.
+### stage 1.1 discussion and design (1 month)
 
-* Develop the feature
-* Build test environment
-* Fully test the functions
-* Code submit and audit
+In this stage we need to discuss with 1kv team and polkadot app team about the detailed design about how to build the brdige between 1kv project and polkadot app project considering losts of reServer fee for 2021.01 and 2021.02: (8vCPU + 16GiB + 500GiB SSD + 10Mbps) * 2 = $800quirements of polkado app: something should be provided to get more nomiators for 1kv team or something should be not. In this period there are several communincation among 1kv team, 1kv team and us. The main task will contain:
+1. Discuss the detail with 1kv maintainers and also Polkadot App developers to reach consensus. we plan to provide the special label for 1kv validator in the staking page, Targets page and Waiting page, in order to make 1kv plan more popular for the nominatos. but this should really be discussed with the official 2 teams.
+2 week (1 pm） 3000$
+3. Understand achitecture and code base about polkadot apps more.
+1 week (2 developer). 3000$          
+5. provide the small icon for the 1kv node to replace the traiditional one.  
+1 week (1 UI), 300$
+7. provide the cloud environment and build native polkadot app to connect with own valiator as testing environment. 
+1 week(1 developer) human cost: 1500$
 
-### stage 2：dot support (3 months)
 
-* Develop the feature
-* Build test environment
-* Fully test the functions
-* Code submit and audit
+Totally allocation:  7800$ 
+
+### stage 1.2 (1 months)
+
+1. add an entry point for 1kv nomination on the polkadot app 2 days (1 developer) 600$
+2. add the 1kv logo and filter function in the staking page, targets page and waiting page  2 days (1 developer) 600$
+3. provide the validator info-on-chain reader js class. 1 week (1 developer). 1500$ 
+4. provide the simple abstract function to be compatible with differerent algorithms:  1 week ( 2 developer) 3000$
+        highest reward currently  
+        highest/lowest inclusion 
+        highest/lowest staking
+5，provide the user action monitor especially the algorithm selection for future work. 1 week (1 developer) 1500$ 
+        
+More attentionly every new algorithm publish should be cooperated with 1kv team before submit or accept by polkadot app.
+
+output: 
+
+* Polkadot App pull request accepted (as patch)
+
+Totally allocation:  7200$ 
+
+### stage 1.3 (1 months)
+
+1, 1kv-edst dashboard ui design. 1 weeks (1 ui, 1 developer) 1000$
+
+2. 1kv develop a dashboard for *nominators* to show the status of 1kv validators. 3 weeks (2 developer) 6000 $
+
+
+output:
+
+* a web service of the dashboard
+
+Totally allocation:  7000$ 
+
+### stage 1.4 (1 months)
+
+1kv-edst is not just a tool but it is necessary to operate as other web function, we need to adjust the function frequently. of course, we need to co-work with 1kv team about how to provide the validator more convenience.
+
+1, data collection and analysisi. totally 1 week (1 developer) 1500$
+2, report about 1kv-edst.         totally 1 week (1 developer) 1500$
+
+output:
+
+* a proposal on how to enhance the nomination system about data ananlysis to 1kv team.
+
+Totally allocation:  3000$ 
+
+### Server Fee: 6 months
+Server is used to build the native polkadot app and deploy the 1kv-edst dashboard
+ (8vCPU + 16GiB + 500GiB SSD + 10Mbps) * 6 = $2400
+ 
+#### Budget
+Take KSM price as $220, so the KSM expense: ($27400) / $220 = 124KSM
+
+
+
+### stage 2：dot support (TBD)
+
+This idea can also be applied to Polkadot 1kv. We will discuss it later after stage 1. is in progress.
 
 ## 6、 Future work
 
