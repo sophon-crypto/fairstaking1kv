@@ -1,36 +1,31 @@
 
-	* question 1:  could you explain how the algorithm you present there will help 1kVP validators when been backed by nominators? is the goal for this algorithm to be added on Apps? and if yes: is this algorithm used when you enable the 1kVP validators filters on targgets?
+### question 1:  could you explain how the algorithm you present there will help 1kVP validators when been backed by nominators? is the goal for this algorithm to be added on Apps? and if yes: is this algorithm used when you enable the 1kVP validators filters on targgets?
 
 
        Answer:  the idea behind this project is to give the verified 1kv validator the web3 1kv label and hope individal user to nominate the 1kv validator more because 1kv plan has some rules about good validator such as "upgrade in 12 hours or 24 hours" , 'the least self-staking'  and 'maximum commission limitation'.   The 1kv nomination could happen after the the 1kv-edst nomimation so this method could help 1kv plan to save the money. Now lots of 1kv validator need all the nomination almost totally from the 1kv but very litle from outside world (invidiual user). So the algorithm just gives individul user some clue to nominate 1kv verified node (good node). 
      The goal of 1kv-edst with the help of Apps is just Polkadot App (whatever ksm or dot) has network flow. We can develop the tool without the support from Apps but no access no user, less help could be done with 1kv plan. The core idea of this project is to help the 1kv plan with the help of polkadot app access.
     The filter is just to show the validator just verified by 1kv. i don't think we can intervene the sequence of validator from  polkadot apps.  The sequence could keep the original design from Apps but just show with the 1kv vp logo ( l like the call name, 1kv vp).    Even i think we must forbidd to intervene the sequence from Polkadot app to keep the dependecency of polkadot apps although polkadot app is a fair wallet. I think polkadot app team can agree with this. That is also i think we need to share all the idea with App team.
     In the end, i want to say the 1kv plan has  great impact on the 1kv-edst algorithm.  All the goal of 1kv-edst is to increase the success-rate of 1kv vp election. The ideal state is 1kv-edst located in the frontside of Apps could give all the 1kv vp part of necessary nomination  and the left nomiation could be provided by the 1kv plan.  Actually i think 
-	* 
-are you also proposing in the document to build a dashboard for 1kVP validators based on the existing one? (this is the data analysis subtitle)
+### question 2: are you also proposing in the document to build a dashboard for 1kVP validators based on the existing one? (this is the data analysis subtitle)
 
 
    Answer: yes, we are proposing to build a dashboard to help the nominators to minotor all the 1kv vp. If it is possible we can integrate the function into the existing one.
 
-	* 
-the cost of man per week to 1500 USD for a part-time involvement seems quite high to me, especially for project managers.
+### question 3: the cost of man per week to 1500 USD for a part-time involvement seems quite high to me, especially for project managers.
 
 
 Answer:  i think this project is not only related with the development but for the good idea to help polkadot community. 需要些东西
 
-	* 
-stage 1.1 discussion and design: i have the feeling all of this discussion should happen before the proposal is funded: if the conclusion of the discussion is positive, then you can move to the development part. If not, then the project does not seem plausible: i am not sure if the council should be funding exploratory milestones to confirm the plausibility of a project. This should already be confirmed, since you re proposing a solution already.
+### question 4: stage 1.1 discussion and design: i have the feeling all of this discussion should happen before the proposal is funded: if the conclusion of the discussion is positive, then you can move to the development part. If not, then the project does not seem plausible: i am not sure if the council should be funding exploratory milestones to confirm the plausibility of a project. This should already be confirmed, since you re proposing a solution already.
 
 
-... ...
-	* 
-I dont understand what the deliverable is on stage 1.4
+### question 5: I dont understand what the deliverable is on stage 1.4
 
 
 Answer：需要些东西
 
 	* 
-server fees: will this servers be used during development of the proposal? how will you cover maintenance of servers after?
+### question 6: server fees: will this servers be used during development of the proposal? how will you cover maintenance of servers after?
 
 
 Answer：yes, the server is just used during development. we plan to deliver all the things to 1kv?
