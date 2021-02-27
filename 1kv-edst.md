@@ -173,10 +173,10 @@ Total allocation: USD 7200.00
 In this stage, we will provide a dashboard in form of a website for the purpose of
 
 * Display validator ranking based on algorithms we proposed
-* Better search functions
 * Historical trending of validators such as commission, number of nominators, amount of inactive stake
+* Better search functions such as search by stash ID
 
-1, 1kVP-edst dashboard UI design - 1 weeks (1 UI Dev, 1 developer): USD 1000.00
+1. 1kVP-edst dashboard UI design - 1 weeks (1 UI Dev, 1 developer): USD 1000.00
 
 2. 1kVP develop a dashboard for *nominators* to show the status of 1kVP validators - 3 weeks (2 developer): USD 6000.00
 
