@@ -151,22 +151,9 @@ We hope to build a bridge between the 1kVP project and Polkadot JS Apps through 
 
 ### stage 1: KSM support (6 months)
  
-### stage 1.1 Research, Discussion and Design (1 month)
+### stage 1.1 1kv Entry on Polkadot App (1 month)
 
-On this stage we aim to discuss with the 1kVP team and Polkadot JS Apps team the detailed design on how to build the bridge between 1kVP project and Polkadot JS Apps project, considering losts of reServer fee for 2021.01 and 2021.02: (8vCPU + 16GiB + 500GiB SSD + 10Mbps) * 2 = $800
-
-Discussion with Polkadot JS Apps: Should a solution be provided to get nominators to support 1kVP validators? In this period there are several points of discussion between 1kVP team, 1kVP team and us. 
-
-Main tasks:
-
-1. discuss details of ideas with 1kvp TEAM and Polkadot JS Apps team to reach consensus. We plan on providing a special label for 1kVP validators in the staking page, Targets page and Waiting page, in order to make 1kVP validators more popular for nomination - 2 week (1 PM): USD 3000.00
-2. Understand achitecture and code base of Polkadot JS Apps- 1 week (2 developer): USD 3000.00        
-3. provide the small icon for the 1kv node to replace the traiditional one - 1 week (1 UI): USD 300.00
-4. provide the cloud environment and build native Polkadot JS Apps to connect with own valiator as testing environment - 1 week (1 developer): USD 1500.00
-
-Totally allocation:  USD 7800.00
-
-### stage 1.2 (1 month)
+In this stage, we will provide the following items.
 
 1. add an entry point for 1kVP nomination on Polkadot JS Apps - 2 days (1 developer): USD600.00
 2. add the 1kVP logo and filter function on Apps' staking page, targets page and waiting page -  2 days (1 developer): USD 600.00
@@ -183,27 +170,22 @@ Total allocation: USD 7200.00
 
 ### stage 1.3 (1 month)
 
+In this stage, we will provide a dashboard in form of a website for the purpose of
+
+* Display validator ranking based on algorithms we proposed
+* Better search functions
+* Historical trending of validators such as commission, number of nominators, amount of inactive stake
+
 1, 1kVP-edst dashboard UI design - 1 weeks (1 UI Dev, 1 developer): USD 1000.00
 
 2. 1kVP develop a dashboard for *nominators* to show the status of 1kVP validators - 3 weeks (2 developer): USD 6000.00
 
-Deliverable: Validators dashboard accesible online, as a webpage.
+Deliverable: A validator dashboard
 
 Total allocation: USD 7000.00 
 
-### stage 1.4 (1 month)
-
-1kVP-edst is not just a tool but it is necessary to operate as other web function, we need to adjust the function frequently. of course, we need to co-work with 1kVP team about how to provide the validator more convenience.
-
-1. data collection and analysis - 1 week (1 developer): USD 1500.00
-2. report about 1kVP-edst - totally 1 week (1 developer): USD 1500.00
-
-Deliverable: a proposal on how to enhance the nomination system about data ananlysis to 1kVP team.
-
-Total allocation: USD 3000.00 
-
-### Server Fee: 6 months
-Server is used to build the native Polkadot JS Apps and deploy the 1kVP-edst dashboard - (8vCPU + 16GiB + 500GiB SSD + 10Mbps) * 6 = USD 2400.00
+### Server Fee: 12 months
+Server is used to build the native Polkadot JS Apps and deploy the 1kVP-edst dashboard - (8vCPU + 16GiB + 500GiB SSD + 10Mbps) * 12 = USD 4800.00
  
 #### Budget
 
