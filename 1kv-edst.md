@@ -134,9 +134,13 @@ The reason for using high and low allocation is that if the nominator invests hi
 
 
 
-### 3.3 data analysis
+### 3.3 1kv-edst dashboard
 
-We will provide the data anlyasis page for 1kVP-EDST (this project) as 1kVP-leaderboard page (https://thousand-validators.kusama.network/#/leaderboard). We plan to design and implement the dashboard from nominators view to help them to select their favorite validators from 1kVP plan. We would also use the information from the dashboard to propose the suggestion to enhance the 1kVP nominating system.
+
+The aim of 1kv-dest is to provide non-web3 nomination for the 1kv VP as much as possible based on the lots of users of polkadot apps, and also we hope 1kv-edst could provide senior invidual nominator more information about 1KV VP. Actually, from our experience as 1KV VP we think the 1KV leaderboard is very good for 1KV VP operators to check the status about the validator node about : the lastest version, Invalidity Reasons, etc. However, 1KV-EDST dashboard is designed just for the individual nominator to check which node is better. So 1KV-EDST can provide the interactive interface for the nominator to show the validator with different rules and all the validators will be sorted by this factor:  
+- non-web3 nomination  calculate the taotal of non-web3 nomination for 1KV VP node
+this is very important attributes and in some senses the meaning of 1KV Edst is to show all of us nomination from non-web3 is very important. And more nomination from non-web3, web3 could save token to support more 1KV VP.  Additionally, for the nominator we will provide some other attributes but the non-web3 nomination is the basis of this project.
+
 
 ### 3.4 key points
 
@@ -176,20 +180,18 @@ Total allocation: USD 2850.00
 
 ### stage 1.3  1kv-edst dashboard
 
-1kv-edst dashboard is not just a validator but an interactive site to search suitable validator regarding different sorting algorithim such as :
+1. 1kVP-edst dashboard UI design - 3 days weeks (1 UI Dev, 1 developer): USD 450.00
+2. 1kVP develop a dashboard for *nominators* to show the status of 1kVP validators - 3 weeks (2 developer): USD 4500.00
+* 1kv-edst dashboard is not just a validator but an interactive site to search suitable validator regarding different sorting algorithim such as :
         highest reward currently  
         highest/lowest inclusion 
         highest/lowest staking
   
-  and for every validator 
-
+* calculate the non-web3 nominaton even for the inactive node.
+* 
 * Display validator ranking according to different algorithm such as: 
 * Historical trending of validators such as commission, number of nominators, amount of inactive stake
 * Better search functions such as search by stash ID
-
-1. 1kVP-edst dashboard UI design - 3 days weeks (1 UI Dev, 1 developer): USD 450.00
-
-2. 1kVP develop a dashboard for *nominators* to show the status of 1kVP validators - 3 weeks (2 developer): USD 4500.00
 
 Deliverable: A validator dashboard
 
