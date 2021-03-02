@@ -180,17 +180,18 @@ Total allocation: USD 3300.00
 
 ### stage 1.3  1kv-edst dashboard
 
-1. 1KVP-edst dashboard UI design - 1 week (1 UI Dev & 1 Developer): USD 1500.00
+1. 1KV-EDST dashboard UI design - 1 week (1 UI Dev & 1 Developer): USD 1500.00
 2. 1KV-EDST dashboard development for *nominators* to show the status of 1kVP validators - 3 weeks (2 developer): USD 4500.00
 * 1KV-EDST dashboard is not just a validator view but an interactive site for *nominators* to search suitable validator regarding different sorting algorithim including:
         highest reward currently  
         highest/lowest inclusion 
         highest/lowest staking
   
-* display non-web3 nominatons on each 1kv operators.
+* display totally historical nomination from non-web3 support and web3 support to optimize this project gradually.
+* display non-web3 present nominatons now and history nomination trending on each 1KVP node.
 * display validator ranking based on proposed algorithms
 * display historical trending of validators status of commission, nominator counts and stake size
-* display historical nomination from non-web3 support and web3 support to optimize this project gradually.
+
 
 Deliverable: A validator dashboard
 
