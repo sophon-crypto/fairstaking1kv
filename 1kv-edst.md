@@ -146,51 +146,63 @@ We hope to build a bridge between the 1kVP project and Polkadot JS Apps through 
 ## 4. Time & Cost
 
 - Human resources involved: part-time
-- Cost of man per day = USD 300.00
-- cost of man per week = USD 1500.00
+- Cost of man per day = 1USD 150.00
+- cost of man per week = USD 750.00
+- we hope to implement the project and make it run as soon as possible AND THEN we could optimize more.
 
-### stage 1: KSM support (6 months)
+### stage 1: KSM 1KV EDST (1 months)
  
-### stage 1.1 1kv Entry on Polkadot App (1 month)
-
+### stage 1.1 Development and operation environent preparation
+- development environment including native polkadot app for 1 month 
+- 1kv-edst dashboard development and deployment for 11 month
+  1 Server (8vCPU + 16GiB + 500GiB SSD + 10Mbps) * 12 = USD 400 * 12 month  = USD 4800.00
+ 
+### stage 1.2 1kv-edst front-side in the polkadot apps.
+ 
 In this stage, we will provide the following items.
 
-1. add an entry point for 1kVP nomination on Polkadot JS Apps - 2 days (1 developer): USD600.00
-2. add the 1kVP logo and filter function on Apps' staking page, targets page and waiting page -  2 days (1 developer): USD 600.00
-3. provide the validator info-on-chain reader js class - 1 week (1 developer): USD 1500.00
-4. provide the simple abstract function to be compatible with differerent algorithms - 1 week ( 2 developers): USD 3000.00
+1. add an entry point for 1kVP nomination on Polkadot JS Apps - 2 days (1 developer): USD 300.00
+2. add the 1kVP logo and filter function on Apps' staking page, targets page and waiting page -  2 days (1 developer): USD 300.00
+3. provide the validator info-on-chain reader js class - 1 week (1 developer): USD 750.00
+4. provide the simple abstract function to be compatible with differerent algorithms - 1 week ( 2 developers): USD 1500.00
         highest reward currently  
         highest/lowest inclusion 
         highest/lowest staking
-5，provide the user action monitor especially the algorithm selection for future work - 1 week (1 developer): USD 1500.00 
-
 Deliverable: Polkadot JA Apps pull request accepted (as patch)
 
-Total allocation: USD 7200.00
+In the polkadot app the 1kv-edst just gives some information to choose 1KV VP but doesn't have effect on the polkadot apps sorting algorithm.
 
-### stage 1.3 (1 month)
+Total allocation: USD 2850.00
 
-In this stage, we will provide a dashboard in form of a website for the purpose of
+### stage 1.3  1kv-edst dashboard
 
-* Display validator ranking based on algorithms we proposed
+1kv-edst dashboard is not just a validator but an interactive site to search suitable validator regarding different sorting algorithim such as :
+        highest reward currently  
+        highest/lowest inclusion 
+        highest/lowest staking
+  
+  and for every validator 
+
+* Display validator ranking according to different algorithm such as: 
 * Historical trending of validators such as commission, number of nominators, amount of inactive stake
 * Better search functions such as search by stash ID
 
-1. 1kVP-edst dashboard UI design - 1 weeks (1 UI Dev, 1 developer): USD 1000.00
+1. 1kVP-edst dashboard UI design - 3 days weeks (1 UI Dev, 1 developer): USD 450.00
 
-2. 1kVP develop a dashboard for *nominators* to show the status of 1kVP validators - 3 weeks (2 developer): USD 6000.00
+2. 1kVP develop a dashboard for *nominators* to show the status of 1kVP validators - 3 weeks (2 developer): USD 4500.00
 
 Deliverable: A validator dashboard
 
-Total allocation: USD 7000.00 
+Total allocation: USD 4950.00 
 
-### Server Fee: 12 months
-Server is used to build the native Polkadot JS Apps and deploy the 1kVP-edst dashboard - (8vCPU + 16GiB + 500GiB SSD + 10Mbps) * 12 = USD 4800.00
+### Stage 1.3 operation and support for future 1kv-edst: 12 months
+
+Total allocation: USD 1000 $
  
 #### Budget
 
 KSM Rate: USD 220.00 
-Allocation request: USD 27400.00 / USD 220.00 = 124 KSM
+Allocation request: USD 13600.00 / USD 220.00 = 61.82 KSM
 
 ## 8、 Team and advantage
 
