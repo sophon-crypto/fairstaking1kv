@@ -182,22 +182,23 @@ Total allocation: USD 2850.00
 
 1. 1kVP-edst dashboard UI design - 3 days weeks (1 UI Dev, 1 developer): USD 450.00
 2. 1kVP develop a dashboard for *nominators* to show the status of 1kVP validators - 3 weeks (2 developer): USD 4500.00
-* 1kv-edst dashboard is not just a validator but an interactive site to search suitable validator regarding different sorting algorithim such as :
+* 1kv-edst dashboard is not just a validator view but an interactive site for *nominators* to search suitable validator regarding different sorting algorithim such as :
         highest reward currently  
         highest/lowest inclusion 
         highest/lowest staking
   
-* calculate the non-web3 nominaton even for the inactive node.
-* 
-* Display validator ranking according to different algorithm such as: 
-* Historical trending of validators such as commission, number of nominators, amount of inactive stake
-* Better search functions such as search by stash ID
+* display non-web3 nominatons on each 1kv operators.
+* display validator ranking based on proposed algorithms
+* display historical trending of validators status of commission, nominator counts and stake size
+* we also use the data collected to analyze and optimize our contribution
 
 Deliverable: A validator dashboard
 
 Total allocation: USD 4950.00 
 
 ### Stage 1.3 operation and support for future 1kv-edst: 12 months
+
+We plan to operate our 1kv dashboard site thereafter, the operation man-cost could be calculated as $1000 a year.  
 
 Total allocation: USD 1000 $
  
