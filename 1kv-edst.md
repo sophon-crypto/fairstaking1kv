@@ -235,4 +235,13 @@ We are all involved in the 1kVP project and have a deep understanding of the 1kV
 We have finished the data analysis work of 1kV node, and it keeps working usually. For details, please refer to https://kusama.yaohsin.net/api/validDetail
 
 ### 9 Future
-We are performing this proposal for many times even with the support from web3 team. In this progress we are considering not only the detailed budget but also how can we do better. Finally we think this project is really regarded as the bridge between polkadot apps and 1kv project and lots of detailed requirements should come after it will be online. What we need to do now is to make it run first. 
+
+We propose this project to bridge the Polkadot App and the 1kv project. We hope we can get more insight about how to make the 1kv project more effiecient after our works go online. 
+
+Here are some examples we think we can do in the future,
+
+* ...
+* ...
+* ...
+
+We are going to evaluate these ideas after the first stage is done.
