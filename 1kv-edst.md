@@ -240,8 +240,11 @@ We propose this project to bridge the Polkadot App and the 1kv project. We hope 
 
 Here are some examples we think we can do in the future,
 
-* ...
-* ...
-* ...
+* 1, watch and optimzie the process of 1KV Edst
+When delivering the project it is necesary to minotor and optimze the project for 1 or 2 month. If it can match the expectation more or less we need to consider how can improve. If it is not we need to analyze the result 
+* 2, Extend 1KV-Edst to support dot
+After making sure the project could be helpful for the 1KV plan and we need to extend 1Kv-Edst for dot. 
+* 3, Friendly staking plan probably 
+PoS staking needs the unlock time even it is unlocked. KSM needs 7 days and dot needs 28 days. Maybe there are more friendly staking plan.
 
 We are going to evaluate these ideas after the first stage is done.
