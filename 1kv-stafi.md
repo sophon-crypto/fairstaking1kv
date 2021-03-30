@@ -1,20 +1,19 @@
 
-# 1KV-Staking-StaFi
+# More Stakers Tools (MST)
 
 ## 1. Background
-### 1.1 The problem of Decentralization
+### 1.1 The 1KV project needs help from not only web3 but also more funds
 As the value of Kusama/Polkadot increases, only a few people are able to afford the cost of maintaining their own validators without the help of big players. Today, an operator who wants to manage a Polkadot validator needs to own or attract more than 10M USD, which prevents individual operators from joining the community. The high cost of KSM/DOT will not only hurt decentralization but also reduce the overall activation of the system, such as voting, participating in proposals, speed of updating to the new version, etc.
 
 Therefore, it is essential to increase the proportion of validators held by individual users. The quantity of individual validators is a crucial point to increase  decentralization in the network. The 1kV plan thus was launched by Web3 foundation to help individual players holding validators. It is a pivotal project to disperse the power of validators held by capitals and keep the system decentralized.
 
-### 1.2 The 1kv participants need support from not only web3 but also more funds
 Until today, there are about 172 valid nodes in 1kVP（ https://kusama.yaohsin.net/api/validators， recorded on 24th, Jan 2021). Only 99 of them were successfully elected as validators and the elected rate was about 57.5%. Although the 1kVP plan is pushing to improve the success elected-rate as much as possible through various methods, many nodes have to wait for a long time before being nominated. However, it is unreasonable to ask Web3 Foundation to provide enough stake to keep the 1kVP validators nominated at all times.
 
 Let us have a simple evaluation for 1kVP on Kusama: if all the 172 nodes in the 1kVP are active, each node needs at least 5000 KSM (including at least 50 KSM self-staked) Web3 Foundation needs to stake at least 172 * (5000 - 50) = 851,400 KSM, which equals to about 80M USD now. Moreover, as the price goes up, people probably are more willing to join the program. The 1kVP participants cannot rely on nominations from Web3 foundation in the long term.
 
-### 1.3 Why nominators should stake their funds to validators from 1kv
+### 1.2 1KV validator could be the best validator for the staking busineess
 
-Authenticated 1kVP validators are credible because:
+Bascailly all the Substrated-based blockchain have the staking business and staking is the fundamentail economic model for all the chains.  All the stakers (nominator in kusama/polkadot） needs to choose suitable node (validator in the kusama/polkadot) to finish the operation， otherwise， stakers needs to build node by themselves. However, we think 1KV plan has done a lot of work for the suitable validator because:
 
 1. High self-stake: 1kVP validators commit their funds to the system, and they have to pay attention to operations to avoid being slashed.
 
@@ -33,7 +32,9 @@ The goal of this proposal is to enhance the 1kVP nominating strategy, helping th
 
 ## 2. Project objectives
 
-We plan to develop a Single-step-nomination function on Polkadot JS Apps to attract individual nominators to stake in favout of 1kVP validators.
+
+![图片](https://user-images.githubusercontent.com/76861170/112962256-c3ae1180-9178-11eb-9462-b9047a4f237c.png)
+
 
 ## 3. Project Design
 
