@@ -1,5 +1,5 @@
 
-# 1KV More-Staking Tool
+# 1KV-Staking-StaFi
 
 ## 1. Background
 ### 1.1 The problem of Decentralization
