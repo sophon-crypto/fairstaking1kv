@@ -11,7 +11,7 @@ Until today, there are about 172 valid nodes in 1kVP（ https://kusama.yaohsin.n
 
 Let us have a simple evaluation for 1kVP on Kusama: if all the 172 nodes in the 1kVP are active, each node needs at least 5000 KSM (including at least 50 KSM self-staked) Web3 Foundation needs to stake at least 172 * (5000 - 50) = 851,400 KSM, which equals to about 80M USD now. Moreover, as the price goes up, people probably are more willing to join the program. The 1kVP participants cannot rely on nominations from Web3 foundation in the long term.
 
-### 1.2 1KV validator could be the best validator for the staking busineess
+### 1.2 1KVP is the best validator sets for the staking-businsess 
 
 Bascailly all the Substrated-based blockchain have the staking business and staking is the fundamentail economic model for all the chains.  All the stakers (nominator in kusama/polkadot） needs to choose suitable node (validator in the kusama/polkadot) to finish the operation， otherwise， stakers needs to build node by themselves. However, we think 1KV plan has done a lot of work for the suitable validator because:
 
@@ -29,12 +29,17 @@ The goal of this proposal is to enhance the 1kVP nominating strategy, helping th
 
 ### 1.6 StaFi project
   somethign more about stafi
+  
+  StaFi will be the first staking-service-provider to work together with 1KV by MST project. 
 
 ## 2. Project objectives
+Staking service is very normal especially in the Substrate-based blockchain system and we would like to develop some common things to connect self-maintained validators sets and nominated-source from outside as show in this following Figure:
 
+MST (More Staking Tool) should provide the APIs to show all the validator information including all the params such as:offlineAccumulated, Rank, Fault times, Inclusion, etc. All the raw parameters could be dumped and published as API. Then the staking-servcie-provider (SSP) could develop their own stategy to choose more suitable one.
 
 ![图片](https://user-images.githubusercontent.com/76861170/112962256-c3ae1180-9178-11eb-9462-b9047a4f237c.png)
 
+ MST (More Staking Tool) also should provide the dashboard to show the nominator-interesting params such as return rate, on-line time and who would like to give normianton for these validators.
 
 ## 3. Project Design
 
