@@ -42,9 +42,41 @@ MST (More Staking Tool) should provide the APIs to show all the validator inform
 
 ## 3. Project Design
 
-### 1kv nominator API (query)
+### 1kv nominator API
 
-。。。。。
+#### 1. get 1kvp active sets
+
+GET /api/1kv-active-sets
+
+#### 2. get 1kvp inactive sets
+
+GET /api/1kv-inactive-sets
+
+#### 2. get full information of speicifc 1kvp valiator
+
+POST /api/1kv-info
+
+::: tip Params
+type:  *Form Data*
+:::
+
+| name | type | description | isRequired |
+| :-: | :-: | :-: | :-: |
+| stash_acccount | String | stash_account | Y |
+
+
+
+::: tip Params
+type:  *Form Data*
+:::
+
+比如出块率，在线率，slash情况，commission，stake数量等
+
+faults
+discovered at
+nominated at
+unclaimed eras
+inclusion
 
 ### 3.3 1kv-edst dashboard
 
