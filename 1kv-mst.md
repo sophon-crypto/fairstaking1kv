@@ -1,7 +1,9 @@
 # More Stakers Tools (MST)
 
-## 1. Background
-### 1.1 The 1KV project needs help from not only web3 but also more funds
+## 1. Objective
+
+### 1.1 1KV plan could enahance the ecetralization of kusama/polkadot network
+
 As the value of Kusama/Polkadot increases, only a few people are able to afford the cost of maintaining their own validators without the help of big players. Today, an operator who wants to manage a Polkadot validator needs to own or attract more than 10M USD, which prevents individual operators from joining the community. The high cost of KSM/DOT will not only hurt decentralization but also reduce the overall activation of the system, such as voting, participating in proposals, speed of updating to the new version, etc.
 
 Therefore, it is essential to increase the proportion of validators held by individual users. The quantity of individual validators is a crucial point to increase  decentralization in the network. The 1kV plan thus was launched by Web3 foundation to help individual players holding validators. It is a pivotal project to disperse the power of validators held by capitals and keep the system decentralized.
@@ -10,7 +12,7 @@ Until today, there are about 172 valid nodes in 1kVP（ https://kusama.yaohsin.n
 
 Let us have a simple evaluation for 1kVP on Kusama: if all the 172 nodes in the 1kVP are active, each node needs at least 5000 KSM (including at least 50 KSM self-staked) Web3 Foundation needs to stake at least 172 * (5000 - 50) = 851,400 KSM, which equals to about 80M USD now. Moreover, as the price goes up, people probably are more willing to join the program. The 1kVP participants cannot rely on nominations from Web3 foundation in the long term.
 
-### 1.2 1KVP is the best validator sets for the staking-businsess 
+### 1.2 1KV could gurantee the high-quality of validators
 
 Bascailly all the Substrated-based blockchain have the staking business and staking is the fundamentail economic model for all the chains.  All the stakers (nominator in kusama/polkadot） needs to choose suitable node (validator in the kusama/polkadot) to finish the operation， otherwise， stakers needs to build node by themselves. However, we think 1KV plan has done a lot of work for the suitable validator because:
 
@@ -20,13 +22,11 @@ Bascailly all the Substrated-based blockchain have the staking business and stak
 
 3. Stability: the official monitors the state of the verification node in 1kVP at any time ensures the stable operation of the node and eliminates the unstable nodes.
 
-### 1.5 Current status of 1kv nominating mechanism from our perspective
+### 1.3 staking-businsess could help 1kv to support more validators. 
 
-The 1kVP nominating system nominates its participants in rotation: If a validator is selected, it will be in the active set for 4 eras (one day) on Kusama, then it will be removed from the set and has to be queued for several days (3 to 5 days) until it is being selected again. The mechanism, though ostensibly fair, does not help validators in collecting support from individual nominators. From our observation, the most effective way to attract nominators is to create a validators ranking on the *Targets*, including an option to nominate 1kVP participants. The nomination within one day can reach more than 10000 KSM. However, after the nomination from 1kVP ends, and if the validator is not selected, the nomination from independent nominators is lost. After 3 to 5 days of not being selected, most nominations attracted by the active period of the validator rotate the nominations.
 
-The goal of this proposal is to enhance the 1kVP nominating strategy, helping those validators who already accumulated some nominations to continue being selected in the active set by individual nominators.
 
-### 1.6 StaFi project
+### 1.4 StaFi project
   somethign more about stafi
   
   StaFi will be the first staking-service-provider to work together with 1KV by MST project. 
