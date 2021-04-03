@@ -27,7 +27,13 @@ Bascailly all the Substrated-based blockchain have the staking business and stak
 
 
 ### 1.4 StaFi project
-  somethign more about stafi
+    StaFi is the first DeFi protocol unlocking liquidity of staked assets. Users can stake PoS tokens through StaFi and receive rTokens in return, which are available for trading, while still earning staking rewards. FIS is the native token on StaFi Chain. FIS is required to provide security to the network by staking, pay for transaction fees on the StaFi chain, and mint & redeem rTokens.
+
+    Website: www.stafi.io
+    Twitter:@Stafi_Protocol
+    Telegram Chat: https://t.me/stafi_protocol
+    Discord: https://discord.com/invite/jB77etn
+    Forum: https://commonwealth.im/stafi
   
   StaFi will be the first staking-service-provider to work together with 1KV by MST project. 
 
@@ -78,6 +84,7 @@ to be continued
 
 
 ### 3.3 1kv-edst dashboard
+
 
 
 The aim of 1kv-dest is to provide non-web3 nomination for the 1kv VP as much as possible based on the lots of users of polkadot apps, and also we hope 1kv-edst could provide senior invidual nominator more information about 1KV VP. Actually, from our experience as 1KV VP we think the 1KV leaderboard is very good for 1KV VP operators to check the status about the validator node about : the lastest version, Invalidity Reasons, etc. However, 1KV-EDST dashboard is designed just for the individual nominator to check which node is better. So 1KV-EDST can provide the interactive interface for the nominator to show the validator with different rules and all the validators will be sorted by this factor:  
