@@ -27,15 +27,10 @@ Bascailly all the Substrated-based blockchain have the staking business and stak
 
 
 ### 1.4 StaFi project
-    StaFi is the first DeFi protocol unlocking liquidity of staked assets. Users can stake PoS tokens through StaFi and receive rTokens in return, which are available for trading, while still earning staking rewards. FIS is the native token on StaFi Chain. FIS is required to provide security to the network by staking, pay for transaction fees on the StaFi chain, and mint & redeem rTokens.
 
-    Website: www.stafi.io
-    Twitter:@Stafi_Protocol
-    Telegram Chat: https://t.me/stafi_protocol
-    Discord: https://discord.com/invite/jB77etn
-    Forum: https://commonwealth.im/stafi
-  
-  StaFi will be the first staking-service-provider to work together with 1KV by MST project. 
+StaFi is the first DeFi protocol unlocking liquidity of staked assets. Users can stake PoS tokens through StaFi and receive rTokens in return, which are available for trading, while still earning staking rewards. FIS is the native token on StaFi Chain. FIS is required to provide security to the network by staking, pay for transaction fees on the StaFi chain, and mint & redeem rTokens. If trying to understand more, you can : visit www.stafi.io, follow Twitter:@Stafi_Protocol, join Telegram Chat: https://t.me/stafi_protocol.
+
+StaFi will be the first staking-service-provider to work together with 1KV by MST project. 
 
 ## 2. Project objectives
 Staking service is very normal especially in the Substrate-based blockchain system and we would like to develop some common things to connect self-maintained validators sets and nominated-source from outside as show in this following Figure:
