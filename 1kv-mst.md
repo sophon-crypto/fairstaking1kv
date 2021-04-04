@@ -4,27 +4,26 @@
 
 ### 1.1 1KV plan could enahance the ecetralization of kusama/polkadot network
 
-As the value of Kusama/Polkadot increases, only a few people are able to afford the cost of maintaining their own validators without the help of big players. Today, an operator who wants to manage a Polkadot validator needs to own or attract more than 10M USD, which prevents individual operators from joining the community. The high cost of KSM/DOT will not only hurt decentralization but also reduce the overall activation of the system, such as voting, participating in proposals, speed of updating to the new version, etc.
+As the value of Kusama/Polkadot increases, only a few people are able to afford the cost of maintaining their own validators without the help of big players. Today, an operator who wants to manage a Polkadot validator needs to own or attract more than 10M USD, which prevents individual operators from joining the community. The high cost of KSM/DOT will not only hurt decentralization but also reduce the overall activation of the system, such as voting, participating in proposals, speed of updating to the new version, etc. 
 
 Therefore, it is essential to increase the proportion of validators held by individual users. The quantity of individual validators is a crucial point to increase  decentralization in the network. The 1kV plan thus was launched by Web3 foundation to help individual players holding validators. It is a pivotal project to disperse the power of validators held by capitals and keep the system decentralized.
 
-Until today, there are about 172 valid nodes in 1kVP（ https://kusama.yaohsin.net/api/validators， recorded on 24th, Jan 2021). Only 99 of them were successfully elected as validators and the elected rate was about 57.5%. Although the 1kVP plan is pushing to improve the success elected-rate as much as possible through various methods, many nodes have to wait for a long time before being nominated. However, it is unreasonable to ask Web3 Foundation to provide enough stake to keep the 1kVP validators nominated at all times.
-
-Let us have a simple evaluation for 1kVP on Kusama: if all the 172 nodes in the 1kVP are active, each node needs at least 5000 KSM (including at least 50 KSM self-staked) Web3 Foundation needs to stake at least 172 * (5000 - 50) = 851,400 KSM, which equals to about 80M USD now. Moreover, as the price goes up, people probably are more willing to join the program. The 1kVP participants cannot rely on nominations from Web3 foundation in the long term.
 
 ### 1.2 1KV could gurantee the high-quality of validators
 
 Bascailly all the Substrated-based blockchain have the staking business and staking is the fundamentail economic model for all the chains.  All the stakers (nominator in kusama/polkadot） needs to choose suitable node (validator in the kusama/polkadot) to finish the operation， otherwise， stakers needs to build node by themselves. However, we think 1KV plan has done a lot of work for the suitable validator because:
 
-1. High self-stake: 1kVP validators commit their funds to the system, and they have to pay attention to operations to avoid being slashed.
+1. High self-stake: 1kVP validators commit their 
+funds to the system, and they have to pay attention to operations to avoid being slashed.
 
 2. Low malicious operations chance: Web3 Foundation keeps monitoring each validator's status. A malicious validator could soon be kicked out of the Program. Nominators thus take a lower risk of being cheated or slashed.
 
 3. Stability: the official monitors the state of the verification node in 1kVP at any time ensures the stable operation of the node and eliminates the unstable nodes.
 
-### 1.3 staking-businsess could help 1kv to support more validators. 
+### 1.3 high-quality validator could help staking service provider to reduce cost
 
-
+We already know the staking service is one of the most fundamental for the POS-based blockchain and becasue of unbonding period the unlocking liquidity of staked assets is the popular. But if the service provider tries to do all the things by themselves they need to build their own validator node and probably not all the validators can't be used fully up to 100%. For the staking service provider a decentralized, scalable, free-maintainable validator nodes would be better and they can use some of nodes to bond or unbond freely. 1KV nodes is the best choice for the kusama/polkadot staking servic provider.
+ 
 ### 1.4 StaFi project
 
 StaFi is the first DeFi protocol unlocking liquidity of staked assets. Users can stake PoS tokens through StaFi and receive rTokens in return, which are available for trading, while still earning staking rewards. FIS is the native token on StaFi Chain. FIS is required to provide security to the network by staking, pay for transaction fees on the StaFi chain, and mint & redeem rTokens. If trying to understand more, you can : visit www.stafi.io, follow Twitter:@Stafi_Protocol, join Telegram Chat: https://t.me/stafi_protocol.
