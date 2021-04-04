@@ -1,4 +1,4 @@
-# More Stakers Tools (MST)
+# 1KV-program More Stakers Tools (1KV-MST)
 
 ## 1. Objective
 
@@ -25,12 +25,11 @@ Bascailly all the Substrated-based blockchain have the staking business and stak
 ### 1.3 staking-businsess could help 1kv to support more validators. 
 
 
-
 ### 1.4 StaFi project
 
 StaFi is the first DeFi protocol unlocking liquidity of staked assets. Users can stake PoS tokens through StaFi and receive rTokens in return, which are available for trading, while still earning staking rewards. FIS is the native token on StaFi Chain. FIS is required to provide security to the network by staking, pay for transaction fees on the StaFi chain, and mint & redeem rTokens. If trying to understand more, you can : visit www.stafi.io, follow Twitter:@Stafi_Protocol, join Telegram Chat: https://t.me/stafi_protocol.
 
-StaFi will be the first staking-service-provider to work together with 1KV by MST project. 
+StaFi will be the first staking-service-provider to work together with 1KV by 1KV-MST project. 
 
 ## 2. Project objectives
 Staking service is very normal especially in the Substrate-based blockchain system and we would like to develop some common things to connect self-maintained validators sets and nominated-source from outside as show in this following Figure:
@@ -42,7 +41,7 @@ Web3 1kv programm could make entry rules of 1kv validators and provide the most 
 
 ![mst](https://user-images.githubusercontent.com/76861170/113494648-c3b56500-951c-11eb-8958-d2fbc1c254c2.png)
 
- MST (More Staking Tool) can provide the dashboard to show the information about validators about norminator-soources types (from WEB3, from SSP or from others) and some other raw information about commision-rate. All the information would be organized from the nominator-side-view.
+ 1KV-MST can provide the dashboard to show the information about validators about norminator-soources types (from WEB3, from SSP or from others) and some other raw information about commision-rate. All the information would be organized from the nominator-side-view.
 
 ## 3. Project Design
 
@@ -81,14 +80,28 @@ GET /api/1kvp-full
 to be continued
 
 
-### 3.3 1kv-edst dashboard
+### 3.2 1kv-mst dashboard
 
+#### 3.2.1 1kv-mst dashboard can provide the active validators original information
+     - commission-rate
+     - discoveredAt
+     - controller
+     - stash
+     - rward
+     - faults
+     - average-points
+     - nearest-points
+     - ...
 
+#### 3.2.2 active validators could be sorted by many fields:
+     - by avarage era
+     - by nearest era point （in the last 24 hours)
+     - by already-nominated amount
+     - ...
 
-The aim of 1kv-dest is to provide non-web3 nomination for the 1kv VP as much as possible based on the lots of users of polkadot apps, and also we hope 1kv-edst could provide senior invidual nominator more information about 1KV VP. Actually, from our experience as 1KV VP we think the 1KV leaderboard is very good for 1KV VP operators to check the status about the validator node about : the lastest version, Invalidity Reasons, etc. However, 1KV-EDST dashboard is designed just for the individual nominator to check which node is better. So 1KV-EDST can provide the interactive interface for the nominator to show the validator with different rules and all the validators will be sorted by this factor:  
-- non-web3 nomination  calculate the taotal of non-web3 nomination for 1KV VP node
-this is very important attributes and in some senses the meaning of 1KV Edst is to show all of us nomination from non-web3 is very important. And more nomination from non-web3, web3 could save token to support more 1KV VP.  Additionally, for the nominator we will provide some other attributes but the non-web3 nomination is the basis of this project.
-
+### 3.3 other consideration
+   Probably sometimes 1kv-mst dashboard is thought to be similar as 1kv-leadership-dashboard. Indeed they are different display model of the same information sets but more importantly these information are organized from different side-view. We think 1kv-leadership-dashboard is mainly for the validator themselves and they could find the enough information to help validator operator to locate the questionf of validator node such as: Don't update to the newest version, node downtime caused by unknow reason, etc.
+   1KV-MST dashboard could focus more on the statistical information especially more useful for nominator whatever the Staking Service Provider or individual user. We are sure the 1kv-mst dashboard will be more specic and characteristic when more and more Staking Service Providers join 1KV programme.
 
 
 ## 4. Time & Cost
@@ -98,25 +111,24 @@ this is very important attributes and in some senses the meaning of 1KV Edst is 
 - cost of man per week = USD 750.00
 - we hope to implement the project and make it run as soon as possible AND THEN we could optimize more.
 
-### stage 1: KSM 1KV EDST (1 months)
- 
-### stage 1.1 Development and operation environent preparation
-- 1KV-EDST dashboard development and deployment for 11 month
+### 4.1 Cloud environment
+Cloud environment is used in
+- 1KV-MST dashboard development and deployment
+- API-Doc depoyment
+
   1 Server (8vCPU + 16GiB + 500GiB SSD + 10Mbps) * 12 = USD 400 * 12 month  = USD 4800.00
  
-### stage 1.2 1KVP API specification and sdk
- 
-In this stage, we will provide the following items.
+### 4.2 API Tools SDK
+API SDK includes: 
+- online restful model 10 days (1 developer): USD 1500.00
+- offline native model (java version) 10 days (1 developer): 1500.00  
 
-1. 1KVP API （nodejs)  10 days (2 developer): USD 3000.00
-2. 1KVP API (python3)  10 days (2 developer): USD 3000.00
+Total allocation: USD 3000.00
 
-Total allocation: USD 6000.00
+### 4.3 1kv-mst dashboard
 
-### stage 1.3  1kv-edst dashboard
-
-1. 1KV-EDST dashboard UI design - 1 week (1 UI Dev & 1 Developer): USD 1500.00
-2. 1KV-EDST dashboard development for *nominators* to show the status of 1kVP validators - 3 weeks (2 developer): USD 4500.00
+1. 1kv-MST dashboard UI design - 1 week (1 UI Dev & 1 Developer): USD 1500.00
+2. 1KV-MST dashboard development for *nominators* to show the status of 1kVP validators - 3 weeks (2 developer): USD 4500.00
 * 1KV-EDST dashboard is not just a validator view but an interactive site for *nominators* to search suitable validator regarding different sorting algorithim including:
         highest reward currently  
         highest/lowest inclusion 
@@ -132,7 +144,7 @@ Deliverable: A validator dashboard
 
 Total allocation: USD 6000.00 
 
-### Stage 1.3 operation and support for future 1kv-edst: 12 months
+### 4.4 operation and support for future 1kv-mst: 12 months
 
 We plan to operate our 1kv dashboard site thereafter, the operation man-cost could be calculated as $1000 a year.  
 
@@ -141,7 +153,7 @@ Total allocation: USD 1000
 #### Budget
 
 KSM Rate: USD 500.00 
-Allocation request: USD 17800.00 / (1ksm/USD 500.00) = 35.6 KSM
+Allocation request: USD 15800.00 / (1ksm/USD 300.00) = 49.3 KSM
 
 ## 8、 Team and advantage
 
