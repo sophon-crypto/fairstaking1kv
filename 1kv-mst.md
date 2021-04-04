@@ -35,11 +35,14 @@ StaFi will be the first staking-service-provider to work together with 1KV by MS
 ## 2. Project objectives
 Staking service is very normal especially in the Substrate-based blockchain system and we would like to develop some common things to connect self-maintained validators sets and nominated-source from outside as show in this following Figure:
 
-MST (More Staking Tool) should provide the APIs to show all the validator information including all the params such as:offlineAccumulated, Rank, Fault times, Inclusion, etc. All the raw parameters could be dumped and published as API. Then the staking-servcie-provider (SSP) could develop their own stategy to choose more suitable one.
+Web3 1kv programm could make entry rules of 1kv validators and provide the most of necessary nomination. Additioanlly other staking service provider (SSP) could provide others and all of them could support the election of all the verified vaidators in order to make the whole system more reliable. MST (More Staking Tool) should provide the APIs to help the staking service provider (SSP) to show validator raw information about commission-rate, faults times, slash or not, etc but WITHOUT any algorithms which will be handled by SSP themselves. 
 
-![图片](https://user-images.githubusercontent.com/76861170/112962256-c3ae1180-9178-11eb-9462-b9047a4f237c.png)
 
- MST (More Staking Tool) also should provide the dashboard to show the nominator-interesting params such as return rate, on-line time and who would like to give normianton for these validators.
+
+
+![mst](https://user-images.githubusercontent.com/76861170/113494648-c3b56500-951c-11eb-8958-d2fbc1c254c2.png)
+
+ MST (More Staking Tool) can provide the dashboard to show the information about validators about norminator-soources types (from WEB3, from SSP or from others) and some other raw information about commision-rate. All the information would be organized from the nominator-side-view.
 
 ## 3. Project Design
 
