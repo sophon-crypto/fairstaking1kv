@@ -52,7 +52,6 @@ We provide RESTful API for users such as Stafi to make monitor validator status 
 * Provide interactive API document in form such as (https://Swagger.io)
 * Provide SDK in Javascript and Python
 #### 3.1.2 API description
-And the API sets will include :
     - get 1kvp active sets
     - get 1kvp inactive sets
     - get 1kvp commission rate
