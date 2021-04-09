@@ -54,25 +54,15 @@ We provide RESTful API for users such as Stafi to make monitor validator status 
 
 And the API sets will include :
 - get 1kvp active sets
-GET /api/1kv-active-sets
 - get 1kvp inactive sets
-GET /api/1kv-inactive-sets
-- get commission rate of 1kvp
-GET /api/1kvp-commission-rate
-- get discoveredAt
-GET /api/1kvp-discoveredAt
-- get contrller
-GET /api/1kvp-controller
-- get slash
-GET /api/1kvp-slash
-- get faults
-GET /api/1kvp-faults
-- get fault reason
-GET /api/1kvp-fault-reason
--  get era points
-GET /api/1kvp-average-points
-- get all information of 1kvp
-GET /api/1kvp-full
+- get 1kvp commission rate
+- get 1kvp discoveredAt
+- get 1kvp contrller
+- get 1kvp slash
+- get 1kvp faults
+- get 1kvp fault reason
+- get 1kvp era points
+- get 1kvp all information
 
 ### 3.2 1kv-mst dashboard
 
