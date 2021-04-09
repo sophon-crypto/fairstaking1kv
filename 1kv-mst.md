@@ -46,6 +46,12 @@ Web3 1kv programm could make entry rules of 1kv validators and provide the most 
 
 ### 3.1 1kv nominator API
 
+We provide RESTful API for users such as Stafi to make monitor validator status simple. We plan to
+
+* Host the API service
+* Provide interactive API document in form such as (https://Swagger.io)
+* Provide SDK in Javascript and Python, (and??)
+
 #### 3.1.1. get 1kvp active sets
 
 GET /api/1kv-active-sets
@@ -88,14 +94,14 @@ to be continued
      - stash
      - rward
      - faults
-     - average-points
-     - nearest-points
+     - average-era-points
+     - recent-era-points
      - ...
 
 #### 3.2.2 active validators could be sorted by many fields:
-     - by avarage era
-     - by nearest era point （in the last 24 hours)
-     - by already-nominated amount
+     - by avarage era point
+     - by recent era point （in the last 24 hours)
+     - by active/inactive nominated amount
      - ...
 
 ### 3.3 other consideration
