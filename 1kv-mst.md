@@ -44,46 +44,35 @@ Web3 1kv programm could make entry rules of 1kv validators and provide the most 
 
 ## 3. Project Design
 
-### 3.1 1kv nominator API
+### 3.1 Interactive API document
 
 We provide RESTful API for users such as Stafi to make monitor validator status simple. We plan to
 
 * Host the API service
 * Provide interactive API document in form such as (https://Swagger.io)
-* Provide SDK in Javascript and Python, (and??)
+* Provide SDK in Javascript and Python
 
-#### 3.1.1. get 1kvp active sets
-
+And the API sets will include :
+* get 1kvp active sets
 GET /api/1kv-active-sets
-
-#### 3.1.2. get 1kvp inactive sets
-
+* get 1kvp inactive sets
 GET /api/1kv-inactive-sets
-
-#### 3.1.3 get commission rate of 1kvp
+* get commission rate of 1kvp
 GET /api/1kvp-commission-rate
-
-#### 3.1.4 get discoveredAt
+* get discoveredAt
 GET /api/1kvp-discoveredAt
-
-#### 3.1.5 get contrller
+* get contrller
 GET /api/1kvp-controller
-
-#### 3.1.6 get slash
+* get slash
 GET /api/1kvp-slash
-
-#### 3.1.7 get faults
+* get faults
 GET /api/1kvp-faults
-
-#### 3.1.8 get era points
+* get fault reason
+GET /api/1kvp-fault-reason
+*  get era points
 GET /api/1kvp-average-points
-
-#### 3.1.9 get all information of 1kvp
+* get all information of 1kvp
 GET /api/1kvp-full
-
-#### 3.1.10 more
-to be continued
-
 
 ### 3.2 1kv-mst dashboard
 
