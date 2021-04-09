@@ -44,7 +44,7 @@ Web3 1kv programm could make entry rules of 1kv validators and provide the most 
 
 ## 3. Project Design
 
-### 3.1 Interactive API document
+### 3.1 Interactive API
 #### 3.1.1 function description
 We provide RESTful API for users such as Stafi to make monitor validator status simple. We plan to
 
@@ -62,6 +62,7 @@ We provide RESTful API for users such as Stafi to make monitor validator status 
     - get 1kvp fault reason
     - get 1kvp era points
     - get 1kvp all information
+    - ...
 
 ### 3.2 1kv-mst dashboard
 
@@ -101,12 +102,15 @@ Cloud environment is used in
 
   1 Server (8vCPU + 16GiB + 500GiB SSD + 10Mbps) * 12 = USD 400 * 12 month  = USD 4800.00
  
-### 4.2 API Tools SDK
+### 4.2 API 
 API SDK includes: 
-- online restful model 10 days (1 developer): USD 1500.00
-- offline native model (java version) 10 days (1 developer): 1500.00  
+- API implementation 5 days (1 developer): USD 750.00
+- Interactive API document 5 days (1 developer): USD 750.00
+- online restful model 5 days (1 developer): USD 750.00
+- offline native model (python version) 5 days (1 developer): 750.00  
+- offline native model (js version) 5 days (1 developer): 750.00  
 
-Total allocation: USD 3000.00
+Total allocation: USD 3750.00
 
 ### 4.3 1kv-mst dashboard
 
@@ -137,6 +141,9 @@ Total allocation: USD 1000
 
 KSM Rate: USD 500.00 
 Allocation request: USD 15800.00 / (1ksm/USD 300.00) = 49.3 KSM
+
+## 8、 Future work
+  In this stage we just implement the 1kv for kusama and 
 
 ## 8、 Team and advantage
 
