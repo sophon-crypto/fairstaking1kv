@@ -42,6 +42,10 @@ Web3 1kv programm could make entry rules of 1kv validators and provide the most 
 
  1KV-MST can provide the dashboard to show the information about validators about norminator-soources types (from WEB3, from SSP or from others) and some other raw information about commision-rate. All the information would be organized from the nominator-side-view.
 
+  The whole project will be split into 2 stages. In this stage we just implement the 1kv for kusama. After 1KV-MST can be online we will review the design and we should get the real feedback from Stafi project as Staking Service Provider.
+  In the second stage We plan to start the 1kv-mst project for Polkadot when the 1kv-mst for kusama is done immediately and submit the 1KV-MST proposal of new design. 
+ 
+
 ## 3. Project Design
 
 ### 3.1 Interactive API
@@ -152,10 +156,6 @@ Total allocation: USD 2700
 KSM Rate: USD 400.00 
 Funding request: USD 18450.00 / (1ksm/USD 400.00) = 46.125 KSM
 
-## 8、 Future work
-  The whole project will be split into 2 stages. In this stage we just implement the 1kv for kusama. After 1KV-MST can be online we will review the design and we should get the real feedback from Stafi project as Staking Service Provider.
-  In the second stage We plan to start the 1kv-mst project for Polkadot when the 1kv-mst for kusama is done immediately and submit the 1KV-MST proposal of new design. 
- 
 
 ## 8、 Team and advantage
 
@@ -193,3 +193,4 @@ Here are some examples we think we can do in the future,
 * Support Polkadot 1kv project
 
 We are going to evaluate these ideas after the first stage is done.
+
