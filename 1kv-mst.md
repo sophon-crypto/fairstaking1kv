@@ -2,7 +2,7 @@
 
 ## 1. Objective
 
-### 1.1 1KV plan could enahance the ecetralization of kusama/polkadot network
+### 1.1 1KV plan could enahance the decetralization of kusama/polkadot network
 
 As the value of Kusama/Polkadot increases, only a few people are able to afford the cost of maintaining their own validators without the help of big players. Today, an operator who wants to manage a Polkadot validator needs to own or attract more than 10M USD, which prevents individual operators from joining the community. The high cost of KSM/DOT will not only hurt decentralization but also reduce the overall activation of the system, such as voting, participating in proposals, speed of updating to the new version, etc. 
 
@@ -26,9 +26,9 @@ We already know the staking service is one of the most fundamental for the POS-b
  
 ### 1.4 StaFi project
 
-StaFi is the first DeFi protocol unlocking liquidity of staked assets. Users can stake PoS tokens through StaFi and receive rTokens in return, which are available for trading, while still earning staking rewards. FIS is the native token on StaFi Chain. FIS is required to provide security to the network by staking, pay for transaction fees on the StaFi chain, and mint & redeem rTokens. If trying to understand more, you can : visit www.stafi.io, follow Twitter:@Stafi_Protocol, join Telegram Chat: https://t.me/stafi_protocol.
+StaFi is the first DeFi protocol unlocking liquidity of staked assets. Users can stake PoS tokens through StaFi and receive rTokens in return(like stake KSM, get rKSM.), which are available for trading, while still earning staking rewards. More info about StaFi, you can : visit www.stafi.io, follow Twitter:@Stafi_Protocol, join Telegram Chat: https://t.me/stafi_protocol.
 
-StaFi will be the first staking-service-provider to work together with 1KV by 1KV-MST project. 
+StaFi will be the first staking-service-provider to work together with 1KV by 1KV-MST project. Users stake KSM/DOT through StaFi Staking Contract, it will be nominated to the validators on this group, in order to make the network more decentralized. Recently Stafi will provide 2 kinds of unlocking liquidity of staked assets ： rKSM and rDOT targeted for Kusama and Polkadot project. 
 
 ## 2. Project objectives
 Staking service is very normal especially in the Substrate-based blockchain system and we would like to develop some common things to connect self-maintained validators sets and nominated-source from outside as show in this following Figure:
@@ -50,7 +50,10 @@ We provide RESTful API for users such as Stafi to make monitor validator status 
 
 * Host the API service
 * Provide interactive API document in form such as (https://Swagger.io)
-* Provide SDK in Javascript and Python
+* Provide SDK in Javascript and Rust.
+
+JS is regarded as full-stack language and it is easily used for many prototype projects. Rust is the base-language for the substrate-based blockchain. So we choose these 2 languages to implement the SDK firstly.
+
 #### 3.1.2 API description
     - get 1kvp active sets
     - get 1kvp inactive sets
@@ -95,22 +98,28 @@ We provide RESTful API for users such as Stafi to make monitor validator status 
 - cost of man per week = USD 750.00
 - we hope to implement the project and make it run as soon as possible AND THEN we could optimize more.
 
-### 4.1 Cloud environment
+### 4.1 Cloud environment preparation
 Cloud environment is used in
 - 1KV-MST dashboard development and deployment
 - API-Doc depoyment
+- domain name for 2 years (USD 300.00）
 
   1 Server (8vCPU + 16GiB + 500GiB SSD + 10Mbps) * 12 = USD 400 * 12 month  = USD 4800.00
+  
+  Funding allocation: USD 5100
+  Time estimation: 1 week
+ 
  
 ### 4.2 API 
 API SDK includes: 
 - API implementation 5 days (1 developer): USD 750.00
 - Interactive API document 5 days (1 developer): USD 750.00
 - online restful model 5 days (1 developer): USD 750.00
-- offline native model (python version) 5 days (1 developer): 750.00  
-- offline native model (js version) 5 days (1 developer): 750.00  
+- SDK of JS version 5 days (1 developer): 750.00  
+- SDK of Rust version 5 days (1 developer): 750.00  
 
-Total allocation: USD 3750.00
+Funding allocation: USD 3750.00
+Time estimation: 2 months
 
 ### 4.3 1kv-mst dashboard
 
@@ -129,21 +138,24 @@ Total allocation: USD 3750.00
 
 Deliverable: A validator dashboard
 
-Total allocation: USD 6000.00 
+Funding allocation: USD 6000.00 
+Time estimation: 1 months
 
 ### 4.4 operation and support for future 1kv-mst: 12 months
 
-We plan to operate our 1kv dashboard site thereafter, the operation man-cost could be calculated as $1000 a year.  
+We plan to operate our 1kv dashboard site thereafter, the operation man-cost could be calculated as $300 * 9 month = 2700 USD a year (USD 300 per month).
 
-Total allocation: USD 1000
+Total allocation: USD 2700
  
 #### Budget
 
-KSM Rate: USD 500.00 
-Allocation request: USD 15800.00 / (1ksm/USD 300.00) = 49.3 KSM
+KSM Rate: USD 400.00 
+Funding request: USD 18450.00 / (1ksm/USD 400.00) = 46.125 KSM
 
 ## 8、 Future work
-  In this stage we just implement the 1kv for kusama and 
+  The whole project will be split into 2 stages. In this stage we just implement the 1kv for kusama. After 1KV-MST can be online we will review the design and we should get the real feedback from Stafi project as Staking Service Provider.
+  In the second stage We plan to start the 1kv-mst project for Polkadot when the 1kv-mst for kusama is done immediately and submit the 1KV-MST proposal of new design. 
+ 
 
 ## 8、 Team and advantage
 
