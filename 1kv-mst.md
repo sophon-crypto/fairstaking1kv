@@ -153,7 +153,9 @@ Total allocation: USD 2700
  
 #### 4.5 Time estimation and budget
 
-The project will be done in the 3 months after the proposal is approved by coucil but the API component will be done in the first month because API component will be used by StaFi project. According to the KSM Rate: 1KSM = USD 423.00 (13th, 4, 2021) the funding request will be  USD 18450.00 / (1ksm/USD 400.00) = 46.125 KSM.
+The project will be done in the 3 months after the proposal is approved by coucil but the API component will be done in the first month because API component will be used by StaFi project. 
+
+According to the KSM Rate: 1KSM = USD 423.00 (13th, 4, 2021) the funding request will be  USD 17550 / (1ksm/USD 423.00) = 41.48 KSM.
 
 
 ### 5 Future work
