@@ -123,7 +123,7 @@ API component has 2 parts: API, API interactive document, API SDK, etc as follow
 - SDK of Rust version 5 days (1 developer): 750.00  
 
 Funding allocation: USD 3750.00
-Time estimation: 2 months
+Time estimation: 1 months
 
 ### 4.3 1kv-mst dashboard
 
