@@ -13,12 +13,12 @@ Therefore, it is essential to increase the proportion of validators held by indi
 
 Bascailly all the Substrated-based blockchain have the staking business and staking is the fundamentail economic model for all the chains.  All the stakers (nominator in kusama/polkadot） needs to choose suitable node (validator in the kusama/polkadot) to finish the operation， otherwise， stakers needs to build node by themselves. However, we think 1KV plan has done a lot of work for the suitable validator because:
 
-1. High self-stake: 1kVP validators commit their 
+- High self-stake: 1kVP validators commit their 
 funds to the system, and they have to pay attention to operations to avoid being slashed.
 
-2. Low malicious operations chance: Web3 Foundation keeps monitoring each validator's status. A malicious validator could soon be kicked out of the Program. Nominators thus take a lower risk of being cheated or slashed.
+- Low malicious operations chance: Web3 Foundation keeps monitoring each validator's status. A malicious validator could soon be kicked out of the Program. Nominators thus take a lower risk of being cheated or slashed.
 
-3. Stability: the official monitors the state of the verification node in 1kVP at any time ensures the stable operation of the node and eliminates the unstable nodes.
+- Stability: the official monitors the state of the verification node in 1kVP at any time ensures the stable operation of the node and eliminates the unstable nodes.
 
 ### 1.3 high-quality validator could help staking service provider to reduce cost
 
@@ -114,11 +114,11 @@ Cloud environment is used in
   Time estimation: 1 week
  
  
-### 4.2 API 
-API SDK includes: 
-- API implementation 5 days (1 developer): USD 750.00
+### 4.2 API component
+API component has 2 parts: API, API interactive document, API SDK, etc as following:
+
+- API implementation 10 days (1 developer): USD 1500.00
 - Interactive API document 5 days (1 developer): USD 750.00
-- online restful model 5 days (1 developer): USD 750.00
 - SDK of JS version 5 days (1 developer): 750.00  
 - SDK of Rust version 5 days (1 developer): 750.00  
 
@@ -151,15 +151,24 @@ We plan to operate our 1kv dashboard site thereafter, the operation man-cost cou
 
 Total allocation: USD 2700
  
-#### Budget
+#### 4.5 Time estimation and budget
 
-KSM Rate: USD 400.00 
-Funding request: USD 18450.00 / (1ksm/USD 400.00) = 46.125 KSM
+The project will be done in the 3 months after the proposal is approved by coucil but the API component will be done in the first month because API component will be used by StaFi project. According to the KSM Rate: 1KSM = USD 423.00 (13th, 4, 2021) the funding request will be  USD 18450.00 / (1ksm/USD 400.00) = 46.125 KSM.
 
 
-## 8、 Team and advantage
+### 5 Future work
 
-### 8.1 team
+We propose this project to bridge the 1KV project and the 3rd-party staking servicing provider. We hope we can get more insight about how to make the 1kv project more effiecient after the project is online. 
+
+Here are some examples we think we can do in the future,
+
+* keep optimizing the API interface and API specification around the staking service for 3rd-party
+* keep optimizing the 1kv-mst dashabord in side of nominator view
+* Go on the project for Pokadot (dot) 
+
+## 6、 Team and advantage
+
+### 6.1 team
 
 ##### Project Manager and Developer: sophon (Riot Id)
 
@@ -173,24 +182,13 @@ Yaohsin has a Ph.D. degree in computer science with a focus on information secur
 
 tanis_ 37 has a Master degree of computer science. He is a proficient software developer on industrial network management systems. He is also a personal Kusama validator operator.
 
-### 8.2 advantages
+### 6.2 advantages
 
-#### 8.2.1 be familiar with 1kVP plan
+#### 6.2.1 be familiar with 1kVP plan
 
 We are all involved in the 1kVP project and have a deep understanding of the 1kV problem. We hope to help solve some 1kV problems through this project.
 
-#### 8.2.2 some completed works
+#### 6.2.2 some completed works
 
 We have finished the data analysis work of 1kV node, and it keeps working usually. For details, please refer to https://kusama.yaohsin.net/api/validDetail
-
-### 9 Future
-
-We propose this project to bridge the Polkadot App and the 1kv project. We hope we can get more insight about how to make the 1kv project more effiecient after our works go online. 
-
-Here are some examples we think we can do in the future,
-
-* keep improving the algorithm and dashabord to fit *nominator* and our needs more
-* Support Polkadot 1kv project
-
-We are going to evaluate these ideas after the first stage is done.
 
