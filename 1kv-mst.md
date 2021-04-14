@@ -143,7 +143,7 @@ Time estimation: 1 months
 Deliverable: A validator dashboard
 
 Funding allocation: USD 6000.00 
-Time estimation: 1 months
+Time estimation: 1.5 months
 
 ### 4.4 operation and support for future 1kv-mst: 12 months
 
